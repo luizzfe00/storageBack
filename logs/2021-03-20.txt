@@ -1,0 +1,242 @@
+[2021-03-20 15:15:40][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-20 15:15:40][INFO]: MySql conectado ao ambiente development
+
+[2021-03-20 15:16:58][INFO]: Iniciando criação de produtor.
+[2021-03-20 15:16:58][INFO]: Body: {"name":"Luiz"}
+
+[2021-03-20 15:19:55][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-20 15:19:55][INFO]: MySql conectado ao ambiente development
+
+[2021-03-20 15:20:39][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-20 15:20:39][INFO]: MySql conectado ao ambiente development
+
+[2021-03-20 15:26:40][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-20 15:26:40][INFO]: MySql conectado ao ambiente development
+
+[2021-03-20 15:26:42][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-20 15:26:42][INFO]: MySql conectado ao ambiente development
+
+[2021-03-20 15:27:15][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-20 15:27:15][INFO]: MySql conectado ao ambiente development
+
+[2021-03-20 15:27:49][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-20 15:27:49][INFO]: MySql conectado ao ambiente development
+
+[2021-03-20 15:27:55][INFO]: Iniciando criação de produtor.
+[2021-03-20 15:27:55][INFO]: Body: {"name":"Luiz"}
+
+[2021-03-20 15:29:26][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-20 15:29:26][INFO]: MySql conectado ao ambiente development
+
+[2021-03-20 15:33:04][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-20 15:33:04][INFO]: MySql conectado ao ambiente development
+
+[2021-03-20 15:33:08][INFO]: Iniciando criação de produtor.
+[2021-03-20 15:33:08][INFO]: Body: {"name":"Luiz"}
+
+[2021-03-20 15:33:52][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-20 15:33:52][INFO]: MySql conectado ao ambiente development
+
+[2021-03-20 15:34:02][INFO]: Iniciando criação de produtor.
+[2021-03-20 15:34:02][INFO]: Body: {"name":"Luiz"}
+
+[2021-03-20 15:39:22][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-20 15:39:22][INFO]: MySql conectado ao ambiente development
+
+[2021-03-20 21:53:40][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-20 21:53:40][INFO]: MySql conectado ao ambiente development
+
+[2021-03-20 21:54:14][INFO]: Iniciando criação de produtor.
+[2021-03-20 21:54:14][INFO]: Body: {"name":"Luiz"}
+
+[2021-03-20 21:56:01][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-20 21:56:01][INFO]: MySql conectado ao ambiente development
+
+[2021-03-20 21:56:04][INFO]: Iniciando criação de produtor.
+[2021-03-20 21:56:04][INFO]: Body: {"name":"Luiz"}
+
+[2021-03-20 21:59:42][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-20 21:59:42][INFO]: MySql conectado ao ambiente development
+
+[2021-03-20 21:59:45][INFO]: Iniciando criação de produtor.
+[2021-03-20 21:59:45][INFO]: Body: {"name":"Luiz"}
+
+[2021-03-20 22:00:23][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-20 22:00:23][INFO]: MySql conectado ao ambiente development
+
+[2021-03-20 22:00:31][INFO]: Iniciando criação de produtor.
+[2021-03-20 22:00:31][INFO]: Body: {"name":"Luiz"}
+
+[2021-03-20 22:01:05][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-20 22:01:05][INFO]: MySql conectado ao ambiente development
+
+[2021-03-20 22:01:08][INFO]: Iniciando criação de produtor.
+[2021-03-20 22:01:08][INFO]: Body: {"name":"Luiz"}
+
+[2021-03-20 22:01:08][INFO]: Produtor criado
+[2021-03-20 22:01:08][INFO]: Body: {"producer":{"id":1,"name":"Luiz","email":"teste@email.com","businessName":"Teste de Loja","avatar":"","phoneNumber":"(83) 98888-8787","documentType":"CPF","documentNumber":"000.000.000-00","issuer":"SSP","issueDate":"2020-12-02T03:00:00.000Z","updatedAt":"2021-03-21T01:01:08.119Z","createdAt":"2021-03-21T01:01:08.119Z"}}
+
+[2021-03-20 22:03:25][INFO]: Iniciando criação de produtor.
+[2021-03-20 22:03:25][INFO]: Body: {"name":"Luiz"}
+
+[2021-03-20 22:21:25][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-20 22:21:25][INFO]: MySql conectado ao ambiente development
+
+[2021-03-20 22:22:42][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-20 22:22:42][INFO]: MySql conectado ao ambiente development
+
+[2021-03-20 22:22:46][INFO]: Iniciando criação de produtor.
+[2021-03-20 22:22:46][INFO]: Body: {"name":"Luiz"}
+
+[2021-03-20 22:28:28][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-20 22:28:28][INFO]: MySql conectado ao ambiente development
+
+[2021-03-20 22:29:25][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-20 22:29:25][INFO]: MySql conectado ao ambiente development
+
+[2021-03-20 22:29:53][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-20 22:29:53][INFO]: MySql conectado ao ambiente development
+
+[2021-03-20 22:29:57][INFO]: Iniciando busca de produtores.
+
+[2021-03-20 22:30:46][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-20 22:30:46][INFO]: MySql conectado ao ambiente development
+
+[2021-03-20 22:30:48][INFO]: Iniciando busca de produtores.
+
+[2021-03-20 22:31:07][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-20 22:31:07][INFO]: MySql conectado ao ambiente development
+
+[2021-03-20 22:31:18][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-20 22:31:18][INFO]: MySql conectado ao ambiente development
+
+[2021-03-20 22:31:21][INFO]: Iniciando busca de produtores.
+
+[2021-03-20 22:31:34][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-20 22:31:34][INFO]: MySql conectado ao ambiente development
+
+[2021-03-20 22:31:36][INFO]: Iniciando busca de produtores.
+
+[2021-03-20 22:39:57][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-20 22:39:57][INFO]: MySql conectado ao ambiente development
+
+[2021-03-20 22:42:10][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-20 22:42:10][INFO]: MySql conectado ao ambiente development
+
+[2021-03-20 22:42:48][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-20 22:42:48][INFO]: MySql conectado ao ambiente development
+
+[2021-03-20 22:42:51][INFO]: Iniciando busca de produtor.
+
+[2021-03-20 22:44:18][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-20 22:44:18][INFO]: MySql conectado ao ambiente development
+
+[2021-03-20 22:44:22][INFO]: Iniciando busca de produtor.
+
+[2021-03-20 22:44:43][INFO]: Iniciando busca de produtor.
+
+[2021-03-20 22:44:52][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-20 22:44:52][INFO]: MySql conectado ao ambiente development
+
+[2021-03-20 22:44:56][INFO]: Iniciando busca de produtor.
+
+[2021-03-20 22:45:13][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-20 22:45:13][INFO]: MySql conectado ao ambiente development
+
+[2021-03-20 22:45:27][INFO]: Iniciando busca de produtor.
+
+[2021-03-20 22:45:33][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-20 22:45:33][INFO]: MySql conectado ao ambiente development
+
+[2021-03-20 22:45:37][INFO]: Iniciando busca de produtor.
+
+[2021-03-20 22:45:53][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-20 22:45:53][INFO]: MySql conectado ao ambiente development
+
+[2021-03-20 22:46:02][INFO]: Iniciando busca de produtor.
+
+[2021-03-20 22:46:44][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-20 22:46:44][INFO]: MySql conectado ao ambiente development
+
+[2021-03-20 22:46:54][INFO]: Iniciando busca de produtor.
+
+[2021-03-20 22:47:17][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-20 22:47:17][INFO]: MySql conectado ao ambiente development
+
+[2021-03-20 22:47:19][INFO]: Iniciando busca de produtor.
+
+[2021-03-20 22:47:59][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-20 22:47:59][INFO]: MySql conectado ao ambiente development
+
+[2021-03-20 22:48:01][INFO]: Iniciando busca de produtor.
+
+[2021-03-20 22:48:25][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-20 22:48:25][INFO]: MySql conectado ao ambiente development
+
+[2021-03-20 22:48:29][INFO]: Iniciando busca de produtor.
+
+[2021-03-20 22:49:44][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-20 22:49:44][INFO]: MySql conectado ao ambiente development
+
+[2021-03-20 22:49:46][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-20 22:49:46][INFO]: MySql conectado ao ambiente development
+
+[2021-03-20 22:49:48][INFO]: Iniciando busca de produtor.
+
+[2021-03-20 22:51:17][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-20 22:51:17][INFO]: MySql conectado ao ambiente development
+
+[2021-03-20 22:51:20][INFO]: Iniciando busca de produtor.
+
+[2021-03-20 22:51:57][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-20 22:51:57][INFO]: MySql conectado ao ambiente development
+
+[2021-03-20 22:52:00][INFO]: Iniciando busca de produtor.
+
+[2021-03-20 22:52:23][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-20 22:52:23][INFO]: MySql conectado ao ambiente development
+
+[2021-03-20 22:52:27][INFO]: Iniciando busca de produtor.
+

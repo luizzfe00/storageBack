@@ -1,0 +1,4 @@
+[2021-03-19 18:33:02][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-19 18:33:02][INFO]: MySql conectado ao ambiente development
+
