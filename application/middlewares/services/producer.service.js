@@ -38,4 +38,37 @@ async function getOne(id) {
 
 }
 
-module.exports = { create, getAll, getOne };
+async function update(id, data) {
+
+  const producer = await Producer.findByPk(id);
+
+  if (producer) {
+
+      producer.name = data.name;
+      producer.email = data.email;
+      producer.businessName = data.businessName;
+      producer.avatar = data.avatar;
+      producer.phoneNumber = data.phoneNumber;
+      producer.instagram = data.instagram;
+      producer.facebook = data.facebook;
+      producer.website = data.website;
+      producer.street = data.street;
+      producer.houseNumber = data.houseNumber;
+      producer.complement = data.complement;
+      producer.district = data.district;
+      producer.city = data.city;
+      producer.state = data.state;
+      producer.zipCode = data.zipCode;
+      producer.country = data.country;
+
+    await producer.save();
+
+    return producer;
+
+  } else {
+    throw new Error("Nenhum produtor encontrado.");
+  }
+
+}
+
+module.exports = { create, getAll, getOne, update };

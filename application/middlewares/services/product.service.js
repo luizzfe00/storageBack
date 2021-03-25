@@ -18,4 +18,16 @@ async function create(id, data) {
 
 }
 
-module.exports = { create };
+async function getAll(query) {
+
+  console.log(query);
+}
+
+async function getOne(id) {
+  
+  const product = await Product.findByPk(id);
+
+  return product;
+}
+
+module.exports = { create, getAll, getOne };

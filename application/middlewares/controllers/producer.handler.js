@@ -59,4 +59,21 @@ async function handleGetOne(req, res) {
 
 }
 
-module.exports = { handleCreate, handleGetAll, handleGetOne };
+async function handleUpdate(req, res) {
+
+  try {
+
+    const { id: producerId } = req.params;
+
+    LogService.info('Iniciando atualização de produtor.');
+
+    const producerUpdated = await ProducerService.update(producerId);
+
+    return res.status(201).json({ producer: producerUpdated });
+  } catch (err) {
+
+    return res.status(500).json({ error: err.message });
+  }
+}
+
+module.exports = { handleCreate, handleGetAll, handleGetOne, handleUpdate };

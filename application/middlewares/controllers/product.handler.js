@@ -20,4 +20,50 @@ async function handleCreate(req, res) {
   }
 }
 
-module.exports = { handleCreate };
+async function handleGetAll(req, res) {
+
+  try {
+
+    const query = req.query;
+
+    LogService.info('Iniciando busca dos produtos.');
+
+    query.account = res.locals.account;
+
+    const products = await ProductService.getAll(query);
+
+    return res.status(201).json({ products });
+  } catch (err) {
+
+    return res.status(500).json({ error: err.message });
+  }
+}
+
+async function handleGetOne(req, res) {
+
+  try {
+
+    const params = req.params;
+
+    LogService.info('Iniciando busca de produto')
+
+    if (!params.id) {
+      return res.status(500).json({ error: 'O id do produto é obrigatório.' })
+    }
+
+    const product = await ProductService.get(params.id);
+
+    if (!product) {
+      return res.status(500).json({ error: 'O produto buscado não existe.' });
+    }
+
+    LogService.info('Produto obtido.');
+
+    return res.status(201).json({ product });
+  } catch (err) {
+
+    return res.status(500).json({ error: err.message });
+  }
+}
+
+module.exports = { handleCreate, handleGetAll, handleGetOne };
