@@ -1,0 +1,15 @@
+node_modules/
+
+settings.json
+
+package-lock.json
+
+.huskyrc.json
+
+.lintstagedrc.json
+
+.sequelizerc
+
+.eslintrc.json
+
+.env

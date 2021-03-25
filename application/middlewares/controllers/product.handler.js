@@ -28,6 +28,8 @@ async function handleGetAll(req, res) {
 
     LogService.info('Iniciando busca dos produtos.');
 
+    console.log({ query })
+
     query.account = res.locals.account;
 
     const products = await ProductService.getAll(query);

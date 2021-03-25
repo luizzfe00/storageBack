@@ -65,9 +65,11 @@ async function handleUpdate(req, res) {
 
     const { id: producerId } = req.params;
 
+    const body = req.body;
+
     LogService.info('Iniciando atualização de produtor.');
 
-    const producerUpdated = await ProducerService.update(producerId);
+    const producerUpdated = await ProducerService.update(producerId, body);
 
     return res.status(201).json({ producer: producerUpdated });
   } catch (err) {
