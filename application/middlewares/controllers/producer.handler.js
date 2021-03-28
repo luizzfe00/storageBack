@@ -1,15 +1,26 @@
 const LogService = require('../services/log.service');
 const ProducerService = require('../services/producer.service');
+const validation = require('../validations/producer.validations');
 
 async function handleCreate(req, res) {
 
   try {
 
-    const body = req.body;
+    const ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
+
+    const { body } = req;
+
+    const headers = { ...req.headers, ip };
 
     LogService.info('Iniciando criação de produtor.', { name: body.name });
 
-    const producer = await ProducerService.create(body);
+    const validationError = validation.validateProducer(body);
+
+    if (validationError) {
+      return res.status(validationError.code).json({ error: validationError.message });
+    }
+
+    const producer = await ProducerService.create(body, headers);
 
     LogService.info('Produtor criado', producer);
 
@@ -18,7 +29,6 @@ async function handleCreate(req, res) {
   } catch (err) {
 
     return res.status(500).json({ error: err.message });
-
   }
 }
 

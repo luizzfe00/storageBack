@@ -5,6 +5,7 @@ class Producer extends Model {
     super.init({
       name: DataTypes.STRING,
       email: DataTypes.STRING,
+      password: DataTypes.STRING,
       businessName: DataTypes.STRING,
       avatar: DataTypes.STRING,
       phoneNumber: DataTypes.STRING,
@@ -24,7 +25,7 @@ class Producer extends Model {
       zipCode: DataTypes.STRING,
       country: DataTypes.STRING,
     }, {
-      sequelize
+      sequelize,
     });
 
     return this;

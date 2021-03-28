@@ -1,20 +1,30 @@
+const bcrypt = require('bcryptjs');
+
 const Producer = require('../../models/producer.model');
 
 async function create(data) {
   const verifyUser = await Producer.findOne({ 
     where: {
-      email: data.email
+      email: data.email,
+      documentNumber: data.documentNumber
     } 
   });
 
   if (!verifyUser) {
-    
+
+    const saltRounds = 8;
+
+    await bcrypt.hash(data.password, saltRounds)
+      .then((hash) => {
+        data.password = hash;
+      });
+        
     const producer = await Producer.create(data);
 
     return producer;
   } else {
 
-    throw new Error("Já existe um usuário com o e-mail informado.");
+    throw new Error("Já existe um usuário com o e-mail/documento informado.");
   }
 }
 

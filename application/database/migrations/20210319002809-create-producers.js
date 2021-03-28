@@ -22,6 +22,7 @@ module.exports = {
         allowNull: false,
         type: Sequelize.STRING,
       },
+      password: Sequelize.STRING,
       phoneNumber: {
         allowNull: false,
         type: Sequelize.STRING,

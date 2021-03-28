@@ -1,0 +1,132 @@
+[2021-03-27 21:26:15][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-27 21:26:16][INFO]: MySql conectado ao ambiente development
+
+[2021-03-27 21:27:16][INFO]: Iniciando criação de produtor.
+[2021-03-27 21:27:16][INFO]: Body: {"name":""}
+
+[2021-03-27 21:27:26][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-27 21:27:26][INFO]: MySql conectado ao ambiente development
+
+[2021-03-27 21:27:31][INFO]: Iniciando criação de produtor.
+[2021-03-27 21:27:31][INFO]: Body: {"name":""}
+
+[2021-03-27 21:28:03][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-27 21:28:03][INFO]: MySql conectado ao ambiente development
+
+[2021-03-27 21:28:29][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-27 21:28:29][INFO]: MySql conectado ao ambiente development
+
+[2021-03-27 21:28:33][INFO]: Iniciando criação de produtor.
+[2021-03-27 21:28:33][INFO]: Body: {"name":""}
+
+[2021-03-27 21:28:34][INFO]: Produtor criado
+[2021-03-27 21:28:34][INFO]: Body: {"id":2,"name":"","email":"teste@mail.com","businessName":"Loja do Luiz","phoneNumber":"(83) 98888-9999","documentType":"CPF","documentNumber":"000.000.000-00","issuer":"SSP","issueDate":"2002-02-20T00:00:00.000Z","street":"Rua do Seu Ninguém","houseNumber":"10","district":"Catolé","city":"Campina Grande","state":"PB","zipCode":"411-110","country":"Brasil","updatedAt":"2021-03-28T00:28:34.481Z","createdAt":"2021-03-28T00:28:34.481Z"}
+
+[2021-03-27 21:29:22][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-27 21:29:22][INFO]: MySql conectado ao ambiente development
+
+[2021-03-27 21:29:28][INFO]: Iniciando criação de produtor.
+[2021-03-27 21:29:28][INFO]: Body: {"name":""}
+
+[2021-03-27 21:44:21][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-27 21:44:21][INFO]: MySql conectado ao ambiente development
+
+[2021-03-27 21:44:24][INFO]: Iniciando criação de produtor.
+[2021-03-27 21:44:24][INFO]: Body: {"name":""}
+
+[2021-03-27 21:44:43][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-27 21:44:43][INFO]: MySql conectado ao ambiente development
+
+[2021-03-27 21:44:46][INFO]: Iniciando criação de produtor.
+[2021-03-27 21:44:46][INFO]: Body: {"name":""}
+
+[2021-03-27 21:45:07][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-27 21:45:07][INFO]: MySql conectado ao ambiente development
+
+[2021-03-27 21:45:09][INFO]: Iniciando criação de produtor.
+[2021-03-27 21:45:09][INFO]: Body: {"name":""}
+
+[2021-03-27 21:45:34][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-27 21:45:34][INFO]: MySql conectado ao ambiente development
+
+[2021-03-27 21:45:37][INFO]: Iniciando criação de produtor.
+[2021-03-27 21:45:37][INFO]: Body: {"name":""}
+
+[2021-03-27 21:46:34][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-27 21:46:34][INFO]: MySql conectado ao ambiente development
+
+[2021-03-27 21:46:39][INFO]: Iniciando criação de produtor.
+[2021-03-27 21:46:39][INFO]: Body: {"name":""}
+
+[2021-03-27 21:47:54][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-27 21:47:54][INFO]: MySql conectado ao ambiente development
+
+[2021-03-27 21:47:56][INFO]: Iniciando criação de produtor.
+[2021-03-27 21:47:56][INFO]: Body: {"name":""}
+
+[2021-03-27 21:48:35][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-27 21:48:35][INFO]: MySql conectado ao ambiente development
+
+[2021-03-27 21:48:38][INFO]: Iniciando criação de produtor.
+[2021-03-27 21:48:38][INFO]: Body: {"name":""}
+
+[2021-03-27 21:48:38][INFO]: Produtor criado
+[2021-03-27 21:48:38][INFO]: Body: {"id":3,"name":"","email":"","businessName":"","phoneNumber":"(83) 98888-9999","documentType":"CPF","documentNumber":"000.000.000-00","issuer":"SSP","issueDate":"2002-02-20T00:00:00.000Z","street":"Rua do Seu Ninguém","houseNumber":"10","district":"Catolé","city":"Campina Grande","state":"PB","zipCode":"411-110","country":"Brasil","updatedAt":"2021-03-28T00:48:38.322Z","createdAt":"2021-03-28T00:48:38.322Z"}
+
+[2021-03-27 21:48:57][INFO]: Iniciando criação de produtor.
+[2021-03-27 21:48:57][INFO]: Body: {"name":null}
+
+[2021-03-27 21:49:01][INFO]: Iniciando criação de produtor.
+[2021-03-27 21:49:01][INFO]: Body: {"name":null}
+
+[2021-03-27 21:49:09][INFO]: Iniciando criação de produtor.
+[2021-03-27 21:49:09][INFO]: Body: {"name":""}
+
+[2021-03-27 21:49:09][INFO]: Produtor criado
+[2021-03-27 21:49:09][INFO]: Body: {"id":4,"name":"","email":"asda","businessName":"","phoneNumber":"(83) 98888-9999","documentType":"CPF","documentNumber":"000.000.000-00","issuer":"SSP","issueDate":"2002-02-20T00:00:00.000Z","street":"Rua do Seu Ninguém","houseNumber":"10","district":"Catolé","city":"Campina Grande","state":"PB","zipCode":"411-110","country":"Brasil","updatedAt":"2021-03-28T00:49:09.354Z","createdAt":"2021-03-28T00:49:09.354Z"}
+
+[2021-03-27 21:50:03][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-27 21:50:03][INFO]: MySql conectado ao ambiente development
+
+[2021-03-27 21:50:08][INFO]: Iniciando criação de produtor.
+[2021-03-27 21:50:08][INFO]: Body: {"name":""}
+
+[2021-03-27 21:50:08][INFO]: Produtor criado
+[2021-03-27 21:50:08][INFO]: Body: {"id":5,"name":"","email":"asada","businessName":"","phoneNumber":"(83) 98888-9999","documentType":"CPF","documentNumber":"000.000.000-00","issuer":"SSP","issueDate":"2002-02-20T00:00:00.000Z","street":"Rua do Seu Ninguém","houseNumber":"10","district":"Catolé","city":"Campina Grande","state":"PB","zipCode":"411-110","country":"Brasil","updatedAt":"2021-03-28T00:50:08.096Z","createdAt":"2021-03-28T00:50:08.096Z"}
+
+[2021-03-27 21:50:19][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-27 21:50:19][INFO]: MySql conectado ao ambiente development
+
+[2021-03-27 21:52:07][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-27 21:52:07][INFO]: MySql conectado ao ambiente development
+
+[2021-03-27 21:55:15][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-27 21:55:15][INFO]: MySql conectado ao ambiente development
+
+[2021-03-27 21:55:57][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-27 21:55:57][INFO]: MySql conectado ao ambiente development
+
+[2021-03-27 21:56:00][INFO]: Iniciando criação de produtor.
+[2021-03-27 21:56:00][INFO]: Body: {"name":""}
+
+[2021-03-27 21:57:16][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-27 21:57:16][INFO]: MySql conectado ao ambiente development
+

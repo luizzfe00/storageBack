@@ -1,5 +1,6 @@
 const LogService = require('../services/log.service');
 const ProductService = require('../services/product.service');
+const validate = require('../validations/product.validations');
 
 async function handleCreate(req, res) {
 
@@ -9,9 +10,17 @@ async function handleCreate(req, res) {
 
     const { id: producerId } = req.params;
 
-    const body = req.body;
+    const body = {
+      ...req.body,
+      producerId,
+    };
 
-    const product = await ProductService.create(producerId, body);
+    const validationError = validate.validateProduct(body);
+
+    if (validationError)
+      return res.status(validationError.code).json({ error: validationError.message });
+
+    const product = await ProductService.create(body);
 
     return res.status(201).json({ product });
   } catch (err) {
@@ -28,7 +37,7 @@ async function handleGetAll(req, res) {
 
     LogService.info('Iniciando busca dos produtos.');
 
-    console.log({ query })
+    console.log({ query });
 
     query.account = res.locals.account;
 
@@ -47,10 +56,10 @@ async function handleGetOne(req, res) {
 
     const params = req.params;
 
-    LogService.info('Iniciando busca de produto')
+    LogService.info('Iniciando busca de produto');
 
     if (!params.id) {
-      return res.status(500).json({ error: 'O id do produto é obrigatório.' })
+      return res.status(500).json({ error: 'O id do produto é obrigatório.' });
     }
 
     const product = await ProductService.get(params.id);
