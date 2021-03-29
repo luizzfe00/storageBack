@@ -191,3 +191,11 @@
 
 [2021-03-28 17:57:23][INFO]: MySql conectado ao ambiente development
 
+[2021-03-28 18:02:55][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-28 18:02:55][INFO]: MySql conectado ao ambiente development
+
+[2021-03-28 18:48:01][INFO]: O projeto está rodando na porta 3002.
+
+[2021-03-28 18:48:01][INFO]: MySql conectado ao ambiente development
+

@@ -33,6 +33,7 @@ class Producer extends Model {
 
   static associate(models) {
     Producer.hasMany(models.Product, { foreingKey: 'producer_id', as: 'products' });
+    Producer.hasMany(models.Auth, { foreingKey: 'producer_id', as: 'account' });
   };
 };
 
