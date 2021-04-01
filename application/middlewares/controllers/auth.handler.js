@@ -1,11 +1,9 @@
-const validator = require('validator');
-
 const LogService = require('../services/log.service');
+const { Auth } = require('../../models');
 
 const ROLES = {
-  ADMINISTRATOR: 1,
+  PRODUCER: 1,
   CLIENT: 2,
-  KINGPIN: 3,
 };
 
 function handleUserType(req, res, next) {
@@ -14,7 +12,7 @@ function handleUserType(req, res, next) {
   if (userType === 'client') {
     res.locals.role = ROLES.CLIENT;
   } else if (userType === 'account') {
-    res.locals.role = ROLES.ADMINISTRATOR;
+    res.locals.role = ROLES.PRODUCER;
   } else {
     return res.status(400).json({ error: 'Os parâmetros da rota estão invalidos.' });
   }
@@ -23,7 +21,7 @@ function handleUserType(req, res, next) {
 }
 
 async function handleLogin(req, res, next) {
-  return res.locals.role === ROLES.ADMINISTRATOR
+  return res.locals.role === ROLES.PRODUCER
     && await handleAdminLogin(req, res, next);
 }
 
@@ -39,5 +37,14 @@ async function handleAdminLogin(req, res, next) {
     email: body.email,
   });
 
-  const response = await Au;
+  const response = await Auth.create(body, headers);
+
+  if (!response)
+    return res.status(400).json({ error: 'Sei n' });
+
+  res.locals.account = response;
+
+  next();
 }
+
+module.exports = { handleUserType, handleLogin, handleAdminLogin };

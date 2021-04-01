@@ -1,24 +1,36 @@
-const validator = require('validator');
+const { Producer } = require('../../models');
 
-function validateProducer(data) {
+async function createProducer(req, res, next) {
+
+  const data = req.body;
+
+  const producer = await Producer.findOne({
+    where: {
+      email: data.email
+    }
+  });
+
+  if (producer)
+    return res.status(400).json({ error: 'Já existe um produtor com esse e-mail.' });
+
   if (!data.name)
-    return { code: 400, message: 'É necessário informar um nome para o produtor.' };
+    return res.status(400).json({ error: 'É necessário informar um nome para o produtor.' });
   if (!data.email)
-    return { code: 400, message: 'É necessário informar um e-mail.' };
-  if (!validator.isEmail(data.email))
-    return { code: 400, message: 'É necessário informar um e-mail válido.' };
+    return res.status(400).json({ error: 'É necessário informar um e-mail.' });
   if (!data.password)
-    return { code: 400, message: 'É necessário informar uma senha para a conta do produtor.' };
+    return res.status(400).json({ error: 'É necessário informar uma senha para a conta do produtor.' });
   if (!data.businessName)
-    return { code: 400, message: 'É preciso informar um nome para a loja.' };
+    return res.status(400).json({ error: 'É preciso informar um nome para a loja.' });
   if (!data.phoneNumber)
-    return { code: 400, message: 'É preciso informar um número de telefone para o produtor.' };
+    return res.status(400).json({ error: 'É preciso informar um número de telefone para o produtor.' });
   if (!data.documentType)
-    return { code: 400, message: 'É preciso informar o tipo de documento do produtor' };
+    return res.status(400).json({ error: 'É preciso informar o tipo de documento do produtor.' });
   if (!data.documentNumber)
-    return { code: 400, message: 'É preciso informar o número do documento do produtor.' };
+    return res.status(400).json({ error: 'É preciso informar o número do documento do produtor.' });
   if (!data.issuer)
-    return { code: 400, message: 'É preciso informar o Órgão expeditor do documento.' };
+    return res.status(400).json({ error: 'É preciso informar o Órgão expeditor do documento.' });
+
+  next();
 }
 
-module.exports = { validateProducer };
+module.exports = { createProducer };

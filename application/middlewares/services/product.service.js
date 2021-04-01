@@ -1,5 +1,5 @@
-const Producer = require('../../models/producer.model');
-const Product = require('../../models/product.model');
+const { Producer, Product } = require('../../models');
+
 
 async function create(data) {
   const verifyUser = await Producer.findByPk(data.producerId);
@@ -18,9 +18,11 @@ async function create(data) {
 
 }
 
-async function getAll(query) {
+async function getAll() {
 
-  console.log(query);
+  const products = await Product.findAll();
+
+  return { items: products };
 }
 
 async function getOne(id) {
@@ -30,4 +32,37 @@ async function getOne(id) {
   return product;
 }
 
-module.exports = { create, getAll, getOne };
+async function update(id, body) {
+
+  const product = await Product.findByPk(id);
+
+  if (product) {
+
+    product.code = body.code;
+    product.name = body.name;
+    product.image = body.image;
+    product.active = body.active;
+    product.value = body.value;
+    product.quantity = body.quantity;
+
+    await product.save();
+
+    return product;
+  } else {
+    throw new Error('Produto não foi encontrado');
+  }
+}
+
+async function remove(id) {
+
+  const product = await Product.findByPk(id);
+
+  if (product)
+    product.destroy();
+
+  else
+    throw new Error('Produto não foi encontrado');
+
+}
+
+module.exports = { create, getAll, getOne, update, remove };

@@ -1,6 +1,5 @@
 const LogService = require('../services/log.service');
 const ProductService = require('../services/product.service');
-const validate = require('../validations/product.validations');
 
 async function handleCreate(req, res) {
 
@@ -14,11 +13,6 @@ async function handleCreate(req, res) {
       ...req.body,
       producerId,
     };
-
-    const validationError = validate.validateProduct(body);
-
-    if (validationError)
-      return res.status(validationError.code).json({ error: validationError.message });
 
     const product = await ProductService.create(body);
 
@@ -77,4 +71,44 @@ async function handleGetOne(req, res) {
   }
 }
 
-module.exports = { handleCreate, handleGetAll, handleGetOne };
+async function handleUpdate(req, res) {
+
+  try {
+
+    const { id: productId } = req.params;
+
+    const { body } = req;
+
+    LogService.info('Atualizando produto.');
+
+    const productUpdated = await ProductService.update(productId, body);
+
+    LogService('Produto atualizado com sucesso.');
+
+    return res.status(201).json({ product: productUpdated });
+  } catch (err) {
+
+    return res.status(500).json({ error: err.message });
+  }
+}
+
+async function handleDelete(req, res) {
+
+  try {
+
+    const { id: productId } = req.params;
+
+    LogService.info('Excluíndo produto.');
+
+    const productUpdated = await ProductService.remove(productId);
+
+    LogService.info('Produto excluído com sucesso.');
+
+    return res.status(201).json({ product: productUpdated });
+  } catch (err) {
+
+    return res.status(500).json({ error: err.message });
+  }
+}
+
+module.exports = { handleCreate, handleGetAll, handleGetOne, handleUpdate, handleDelete };

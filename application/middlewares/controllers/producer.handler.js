@@ -1,6 +1,5 @@
 const LogService = require('../services/log.service');
 const ProducerService = require('../services/producer.service');
-const validation = require('../validations/producer.validations');
 
 async function handleCreate(req, res) {
 
@@ -13,12 +12,6 @@ async function handleCreate(req, res) {
     const headers = { ...req.headers, ip };
 
     LogService.info('Iniciando criação de produtor.', { name: body.name });
-
-    const validationError = validation.validateProducer(body);
-
-    if (validationError) {
-      return res.status(validationError.code).json({ error: validationError.message });
-    }
 
     const producer = await ProducerService.create(body, headers);
 

@@ -1,25 +1,33 @@
-const { Model, DataTypes } = require('sequelize');
+module.exports = function (sequelize, DataTypes) {
+  const Product = sequelize.define('Product', {
+    code: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    name: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    image: DataTypes.STRING,
+    active: {
+      type: DataTypes.BOOLEAN,
+      allowNull: false,
+    },
+    value: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    quantity: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+    }
+  }, {
+    classMethods: {
+      associate: function(models) {
+        Product.belongsTo(models.Producer, { foreingKey: 'producerId', as: 'owner' });
+      }
+    }
+  });
 
-class Product extends Model {
-  static init(sequelize) {
-    super.init({
-      code: DataTypes.STRING,
-      name: DataTypes.STRING,
-      image: DataTypes.STRING,
-      producerId: DataTypes.INTEGER,
-      active: DataTypes.BOOLEAN,
-      value: DataTypes.STRING,
-      quantity: DataTypes.INTEGER,
-    }, {
-      sequelize,
-    });
-
-    return this;
-  }
-
-  static associate(models) {
-    Product.belongsTo(models.Producer, { foreingKey: 'producer_id', as: 'owner' });
-  };
-}
-
-module.exports = Product;
+  return Product;
+};
