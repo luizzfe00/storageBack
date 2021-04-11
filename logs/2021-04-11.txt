@@ -1,0 +1,161 @@
+[2021-04-11 10:41:40][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-11 10:41:40][INFO]: MySql conectado ao ambiente development
+
+[2021-04-11 10:42:05][INFO]: Iniciando criação de produtor.
+[2021-04-11 10:42:05][INFO]: Body: {"name":"Luiz"}
+
+[2021-04-11 10:42:45][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-11 10:42:46][INFO]: MySql conectado ao ambiente development
+
+[2021-04-11 10:42:48][INFO]: Iniciando criação de produtor.
+[2021-04-11 10:42:48][INFO]: Body: {"name":"Luiz"}
+
+[2021-04-11 10:43:06][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-11 10:43:06][INFO]: MySql conectado ao ambiente development
+
+[2021-04-11 10:43:09][INFO]: Iniciando criação de produtor.
+[2021-04-11 10:43:09][INFO]: Body: {"name":"Luiz"}
+
+[2021-04-11 10:43:50][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-11 10:43:50][INFO]: MySql conectado ao ambiente development
+
+[2021-04-11 10:43:54][INFO]: Iniciando criação de produtor.
+[2021-04-11 10:43:54][INFO]: Body: {"name":"Luiz"}
+
+[2021-04-11 10:44:44][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-11 10:44:44][INFO]: MySql conectado ao ambiente development
+
+[2021-04-11 10:44:48][INFO]: Iniciando criação de produtor.
+[2021-04-11 10:44:48][INFO]: Body: {"name":"Luiz"}
+
+[2021-04-11 10:47:57][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-11 10:47:57][INFO]: MySql conectado ao ambiente development
+
+[2021-04-11 10:48:00][INFO]: Iniciando criação de produtor.
+[2021-04-11 10:48:00][INFO]: Body: {"name":"Luiz"}
+
+[2021-04-11 10:48:00][INFO]: Produtor criado
+[2021-04-11 10:48:00][INFO]: Body: {"document":{"type":"CPF","number":"$2a$08$pof27bRPWuxBwzkBJyTJluosa58wFbqrV1HS1aEEDaDFOoDTHm6iq","issuer":"SSP","issueDate":"2002-02-20"},"id":1,"name":"Luiz","email":"teste@mail.com","password":"$2a$08$RB2bL.e37OlNKfWJRf1yCuOIgyaiSWUw9MHrhb08x4GZDnQY5ZHzi","businessName":"Loja do Luiz","phoneNumber":"(83) 98888-9999","documentType":"CPF","documentNumber":"$2a$08$pof27bRPWuxBwzkBJyTJluosa58wFbqrV1HS1aEEDaDFOoDTHm6iq","issuer":"SSP","issueDate":"2002-02-20","street":"Rua do Seu Ninguém","houseNumber":"10","district":"Catolé","city":"Campina Grande","state":"PB","zipCode":"411-110","country":"Brasil","updatedAt":"2021-04-11T13:48:00.084Z","createdAt":"2021-04-11T13:48:00.084Z"}
+
+[2021-04-11 10:48:59][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-11 10:48:59][INFO]: MySql conectado ao ambiente development
+
+[2021-04-11 10:50:59][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-11 10:50:59][INFO]: MySql conectado ao ambiente development
+
+[2021-04-11 10:53:35][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-11 10:53:36][INFO]: MySql conectado ao ambiente development
+
+[2021-04-11 10:54:48][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-11 10:54:48][INFO]: MySql conectado ao ambiente development
+
+[2021-04-11 10:54:55][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-11 10:54:55][INFO]: MySql conectado ao ambiente development
+
+[2021-04-11 10:55:20][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-11 10:55:20][INFO]: MySql conectado ao ambiente development
+
+[2021-04-11 10:56:00][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-11 10:56:00][INFO]: MySql conectado ao ambiente development
+
+[2021-04-11 10:56:47][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-11 10:56:47][INFO]: MySql conectado ao ambiente development
+
+[2021-04-11 10:56:49][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-11 10:56:49][INFO]: MySql conectado ao ambiente development
+
+[2021-04-11 10:57:00][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-11 10:57:00][INFO]: MySql conectado ao ambiente development
+
+[2021-04-11 10:57:35][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-11 10:57:35][INFO]: MySql conectado ao ambiente development
+
+[2021-04-11 10:58:13][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-11 10:58:13][INFO]: MySql conectado ao ambiente development
+
+[2021-04-11 11:02:05][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-11 11:02:05][INFO]: MySql conectado ao ambiente development
+
+[2021-04-11 11:02:53][INFO]: Iniciando busca de produtor.
+
+[2021-04-11 11:03:55][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-11 11:03:55][INFO]: MySql conectado ao ambiente development
+
+[2021-04-11 11:04:15][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-11 11:04:15][INFO]: MySql conectado ao ambiente development
+
+[2021-04-11 11:04:22][INFO]: Iniciando login na plataforma
+
+[2021-04-11 11:05:08][INFO]: Iniciando busca de produtor.
+
+[2021-04-11 11:06:00][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-11 11:06:00][INFO]: MySql conectado ao ambiente development
+
+[2021-04-11 11:06:04][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-11 11:06:04][INFO]: MySql conectado ao ambiente development
+
+[2021-04-11 11:06:15][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-11 11:06:15][INFO]: MySql conectado ao ambiente development
+
+[2021-04-11 11:06:23][INFO]: Iniciando login na plataforma
+
+[2021-04-11 11:06:55][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-11 11:06:55][INFO]: MySql conectado ao ambiente development
+
+[2021-04-11 11:07:01][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-11 11:07:01][INFO]: MySql conectado ao ambiente development
+
+[2021-04-11 11:07:05][INFO]: Iniciando login na plataforma
+
+[2021-04-11 11:09:39][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-11 11:09:39][INFO]: MySql conectado ao ambiente development
+
+[2021-04-11 11:09:42][INFO]: Iniciando login na plataforma
+
+[2021-04-11 11:12:19][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-11 11:12:19][INFO]: MySql conectado ao ambiente development
+
+[2021-04-11 11:12:34][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-11 11:12:34][INFO]: MySql conectado ao ambiente development
+
+[2021-04-11 11:12:37][INFO]: Iniciando login na plataforma
+
+[2021-04-11 11:12:44][INFO]: Iniciando login na plataforma
+
+[2021-04-11 11:12:48][INFO]: Iniciando login na plataforma
+
+[2021-04-11 11:13:04][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-11 11:13:04][INFO]: MySql conectado ao ambiente development
+
+[2021-04-11 11:13:06][INFO]: Iniciando login na plataforma
+

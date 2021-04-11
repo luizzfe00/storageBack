@@ -1,5 +1,5 @@
+const AuthService = require('../services/auth.service');
 const LogService = require('../services/log.service');
-const { Auth } = require('../../models');
 
 const ROLES = {
   PRODUCER: 1,
@@ -20,31 +20,20 @@ function handleUserType(req, res, next) {
   return next();
 }
 
-async function handleLogin(req, res, next) {
-  return res.locals.role === ROLES.PRODUCER
-    && await handleAdminLogin(req, res, next);
+async function handleProducerLogin(req, res) {
+  try {
+
+    LogService.info("Iniciando login na plataforma");
+
+    const { email, password } = req.body;
+
+    const response = await AuthService.producerLogin(email, password);
+
+    return res.status(200).json(response);
+  } catch (err) {
+
+    return res.status(500).json({ message: err.message, stack: err.stack });
+  }
 }
 
-async function handleAdminLogin(req, res, next) {
-
-  const ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
-
-  const body = req.body;
-
-  const headers = { ...req.headers, ip };
-
-  LogService.info('Iniciando login do produtor da loja na plataforma.', {
-    email: body.email,
-  });
-
-  const response = await Auth.create(body, headers);
-
-  if (!response)
-    return res.status(400).json({ error: 'Sei n' });
-
-  res.locals.account = response;
-
-  next();
-}
-
-module.exports = { handleUserType, handleLogin, handleAdminLogin };
+module.exports = { handleUserType, handleProducerLogin };

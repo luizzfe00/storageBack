@@ -17,6 +17,8 @@ filesystem
 
 Object.keys(database).forEach(modelName => {
 	if (database[modelName].associate) {
+		console.log({ data: database[modelName] });
+
 		database[modelName].associate(database);
 	}
 });

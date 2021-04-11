@@ -21,7 +21,7 @@ async function handleCreate(req, res) {
 
   } catch (err) {
 
-    return res.status(500).json({ error: err.message });
+    return res.status(500).json({ error: err.message, stack: err.stack });
   }
 }
 
@@ -33,11 +33,11 @@ async function handleGetAll(req, res) {
 
     const producers = await ProducerService.getAll();
 
-    return res.status(201).json({ producers });
+    return res.status(201).json({ data: producers });
 
   } catch (err) {
 
-    return res.status(500).json({ error: err.message });
+    return res.status(500).json({ error: err.message, stack: err.stack });
 
   }
 

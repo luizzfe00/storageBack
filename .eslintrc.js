@@ -11,6 +11,7 @@ module.exports = {
     'standard',
     'prettier'
   ],
+  parser: 'babel-eslint',
   root: true,
   parserOptions: {
     ecmaVersion: 12

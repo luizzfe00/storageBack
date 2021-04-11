@@ -1,3 +1,6 @@
+const bcrypt = require('bcryptjs');
+const jwt = require('jsonwebtoken');
+
 module.exports = function (sequelize, DataTypes) {
   const Producer = sequelize.define('Producer', {
     name: {
@@ -21,7 +24,7 @@ module.exports = function (sequelize, DataTypes) {
           if (val.length < 8)
             throw new Error('A senha precisa ter pelo menos 8 caracteres.');
         }
-      }
+      },
     },
     businessName: {
       type: DataTypes.STRING,
@@ -48,6 +51,23 @@ module.exports = function (sequelize, DataTypes) {
       type: DataTypes.STRING,
       allowNull: false,
     },
+    document: {
+      type: DataTypes.VIRTUAL,
+      get() {
+
+        const body = {
+          type: this.documentType,
+          number: this.documentNumber,
+          issuer: this.issuer,
+          issueDate: this.issueDate,
+        };
+
+        return body;
+      },
+      set(value) {
+        throw new Error('Do not try to set the `document` value!');
+      }
+    },
     street: DataTypes.STRING,
     houseNumber: DataTypes.INTEGER,
     complement: DataTypes.STRING,
@@ -61,8 +81,8 @@ module.exports = function (sequelize, DataTypes) {
       associate: function (models) {
         Producer.hasMany(models.Product, { foreingKey: 'producerId', as: 'products' });
         Producer.hasMany(models.Auth, { foreingKey: 'producerId', as: 'account' });
-      }
-    }
+      },  
+    },
   });
 
   return Producer;

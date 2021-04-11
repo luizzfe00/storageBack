@@ -10,6 +10,11 @@ async function create(data) {
     .then((hash) => {
       data.password = hash;
     });
+
+  await bcrypt.hash(data.documentNumber, saltRounds)
+  .then((hash) => {
+    data.documentNumber = hash;
+  });
       
   const producer = await Producer.create(data);
 

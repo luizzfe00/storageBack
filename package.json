@@ -10,6 +10,7 @@
   "author": "Luiz Felipe Xavier Farias <luizzfelip00@gmail.com>",
   "license": "ISC",
   "devDependencies": {
+    "babel-eslint": "^10.1.0",
     "eslint": "^7.22.0",
     "eslint-config-prettier": "^8.1.0",
     "eslint-config-standard": "^16.0.2",

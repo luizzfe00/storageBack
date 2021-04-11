@@ -37,7 +37,7 @@ async function handleGetAll(req, res) {
 
     const products = await ProductService.getAll(query);
 
-    return res.status(201).json({ products });
+    return res.status(201).json({ data: products });
   } catch (err) {
 
     return res.status(500).json({ error: err.message });
