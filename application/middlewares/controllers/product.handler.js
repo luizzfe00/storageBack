@@ -1,3 +1,5 @@
+const jwt = require('jsonwebtoken');
+
 const LogService = require('../services/log.service');
 const ProductService = require('../services/product.service');
 
@@ -7,19 +9,14 @@ async function handleCreate(req, res) {
 
     LogService.info('Iniciado a criação do produto.');
 
-    const { id: producerId } = req.params;
+    const { id } = req.user;
 
-    const body = {
-      ...req.body,
-      producerId,
-    };
-
-    const product = await ProductService.create(body);
+    const product = await ProductService.create(req.body, id);
 
     return res.status(201).json({ product });
   } catch (err) {
 
-    return res.status(500).json({ error: err.message });
+    return res.status(500).json({ error: err.message, stack: err.stack });
   }
 }
 
@@ -29,13 +26,17 @@ async function handleGetAll(req, res) {
 
     const query = req.query;
 
+    const token = req.header('auth-token');
+
     LogService.info('Iniciando busca dos produtos.');
 
-    console.log({ query });
+    const { id } = jwt.decode(token, process.env.JWT_SECRET);
 
-    query.account = res.locals.account;
+    query.id = id;
 
     const products = await ProductService.getAll(query);
+
+    LogService.info("Produtos obtidos.");
 
     return res.status(201).json({ data: products });
   } catch (err) {

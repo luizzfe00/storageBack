@@ -6,12 +6,8 @@ async function validateProduct(req, res, next) {
 
   const data = req.body;
 
-  const { id } = req.params;
-
   if (!data.name)
     return res.status(400).json({ error: 'É preciso informar um nome para o produto.' });
-  if (!id)
-    return res.status(400).json({ error: 'É preciso informar o id do produtor.' });
   if (data.active && !data.image)
     return res.status(400).json({ error: 'A imagem do produto é obrigatória.' });
   if (data.imageType && data.imageType !== 'link' && ['png', 'jpeg'].indexOf(data.imageType) === -1)

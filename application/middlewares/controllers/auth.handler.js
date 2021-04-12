@@ -1,3 +1,5 @@
+const jwt = require('jsonwebtoken');
+
 const AuthService = require('../services/auth.service');
 const LogService = require('../services/log.service');
 
@@ -5,6 +7,21 @@ const ROLES = {
   PRODUCER: 1,
   CLIENT: 2,
 };
+
+function verifyToken(req, res, next) {
+  const token = req.header('auth-token');
+
+  if (!token)
+    return res.status(401).json({ message: "Acesso Negado" });
+
+  try {
+    const verified = jwt.verify(token, process.env.JWT_SECRET);
+    req.user = verified;
+    next();
+  } catch (err) {
+    res.status(400).json({ message: "Token Inválido." });
+  }
+}
 
 function handleUserType(req, res, next) {
   const { userType } = req.params;
@@ -36,4 +53,4 @@ async function handleProducerLogin(req, res) {
   }
 }
 
-module.exports = { handleUserType, handleProducerLogin };
+module.exports = { handleUserType, handleProducerLogin, verifyToken };

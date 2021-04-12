@@ -181,3 +181,89 @@
 
 [2021-04-11 20:23:56][INFO]: Iniciando busca dos produtos.
 
+[2021-04-11 21:20:00][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-11 21:20:00][INFO]: MySql conectado ao ambiente development
+
+[2021-04-11 21:20:46][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-11 21:20:46][INFO]: MySql conectado ao ambiente development
+
+[2021-04-11 21:22:53][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-11 21:22:53][INFO]: MySql conectado ao ambiente development
+
+[2021-04-11 21:23:51][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-11 21:23:51][INFO]: MySql conectado ao ambiente development
+
+[2021-04-11 21:24:02][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-11 21:24:02][INFO]: MySql conectado ao ambiente development
+
+[2021-04-11 21:24:15][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-11 21:24:15][INFO]: MySql conectado ao ambiente development
+
+[2021-04-11 21:24:24][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-11 21:24:24][INFO]: MySql conectado ao ambiente development
+
+[2021-04-11 21:24:38][INFO]: Iniciando login na plataforma
+
+[2021-04-11 21:25:27][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-11 21:25:27][INFO]: MySql conectado ao ambiente development
+
+[2021-04-11 21:25:31][INFO]: Iniciado a criação do produto.
+
+[2021-04-11 21:26:55][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-11 21:26:55][INFO]: MySql conectado ao ambiente development
+
+[2021-04-11 21:26:58][INFO]: Iniciado a criação do produto.
+
+[2021-04-11 21:27:46][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-11 21:27:46][INFO]: MySql conectado ao ambiente development
+
+[2021-04-11 21:27:48][INFO]: Iniciado a criação do produto.
+
+[2021-04-11 21:28:21][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-11 21:28:21][INFO]: MySql conectado ao ambiente development
+
+[2021-04-11 21:29:08][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-11 21:29:08][INFO]: MySql conectado ao ambiente development
+
+[2021-04-11 21:29:32][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-11 21:29:32][INFO]: MySql conectado ao ambiente development
+
+[2021-04-11 21:29:40][INFO]: Iniciado a criação do produto.
+
+[2021-04-11 21:30:01][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-11 21:30:01][INFO]: MySql conectado ao ambiente development
+
+[2021-04-11 21:30:03][INFO]: Iniciado a criação do produto.
+
+[2021-04-11 21:30:24][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-11 21:30:24][INFO]: MySql conectado ao ambiente development
+
+[2021-04-11 21:30:26][INFO]: Iniciado a criação do produto.
+
+[2021-04-11 21:30:50][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-11 21:30:50][INFO]: MySql conectado ao ambiente development
+
+[2021-04-11 21:31:07][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-11 21:31:07][INFO]: MySql conectado ao ambiente development
+
+[2021-04-11 21:31:09][INFO]: Iniciado a criação do produto.
+
+[2021-04-11 21:31:32][INFO]: Iniciado a criação do produto.
+

@@ -1,15 +1,18 @@
+const { Op } = require('sequelize');
+
 const { Producer, Product } = require('../../models');
 
 
-async function create(data) {
-  const verifyUser = await Producer.findByPk(data.producerId);
+
+async function create(data, id) {
+  const verifyUser = await Producer.findByPk(id);
 
   if (!verifyUser)
     throw Error("Produtor não encontrado.");
 
   const body = {
     ...data,
-    producerId: Number(data.producerId),
+    producerId: Number(id),
   };
 
   const product = await Product.create(body);
@@ -18,11 +21,41 @@ async function create(data) {
 
 }
 
-async function getAll() {
+async function getAll(data) {
 
-  const products = await Product.findAll();
+  try {
+    const limit = Number(data.limit) || 20;
+    const page = Number(data.page) || 1;
+    const skip = limit * page - limit;
 
-  return { items: products };
+    console.log({ data });
+
+    const query = { producerId: data.id };
+
+    if (data.name) {
+      data.name = data.name.replace(/[-[\]{}()*+?.,\\/^$|#\s]/g, "\\$&");
+      data.name = { $regex: data.name, $options: "i" };
+      query.name = data.name;
+    }
+
+    const { count, rows } = await Product.findAndCountAll({
+      where: {
+        [Op.or]: query,
+      },
+      order: [
+        ['createdAt', 'DESC']
+      ],
+      offset: skip,
+      limit,
+    });
+
+    return { count, page, items: rows };
+
+  } catch (err) {
+    console.log({ err });
+    throw new Error({ message: "Erro ao obter os produtos.", stack: err.stack });
+  }
+
 }
 
 async function getOne(id) {
