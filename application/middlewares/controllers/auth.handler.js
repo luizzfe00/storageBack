@@ -1,5 +1,6 @@
 const jwt = require('jsonwebtoken');
 
+const getToken = require('../../utils/token.util');
 const AuthService = require('../services/auth.service');
 const LogService = require('../services/log.service');
 
@@ -9,7 +10,8 @@ const ROLES = {
 };
 
 function verifyToken(req, res, next) {
-  const token = req.header('auth-token');
+
+  const token = getToken(req);
 
   if (!token)
     return res.status(401).json({ message: "Acesso Negado" });

@@ -1,6 +1,3 @@
-const bcrypt = require('bcryptjs');
-const jwt = require('jsonwebtoken');
-
 module.exports = function (sequelize, DataTypes) {
   const Producer = sequelize.define('Producer', {
     name: {

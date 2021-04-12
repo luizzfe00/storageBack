@@ -1,5 +1,6 @@
 const jwt = require('jsonwebtoken');
 
+const getToken = require('../../utils/token.util');
 const LogService = require('../services/log.service');
 const ProductService = require('../services/product.service');
 
@@ -23,10 +24,9 @@ async function handleCreate(req, res) {
 async function handleGetAll(req, res) {
 
   try {
-
     const query = req.query;
 
-    const token = req.header('auth-token');
+    const token = getToken(req);
 
     LogService.info('Iniciando busca dos produtos.');
 

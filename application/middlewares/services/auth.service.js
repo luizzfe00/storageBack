@@ -18,7 +18,7 @@ async function producerLogin (email, password) {
   const token = jwt.sign({
     id: producer.id,
     email: producer.email,
-  }, process.env.JWT_SECRET);
+  }, process.env.JWT_SECRET, { expiresIn: '5min' });
 
 
   return { token };

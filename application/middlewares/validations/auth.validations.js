@@ -10,7 +10,7 @@ function verifyToken(req, res, next) {
 
   jwt.verify(token, config.JWT_SECRET, (err, decoded) => {
     if (err)
-      return res.status(401).json({ error: 'Não autorizado.' });
+      throw new Error({ message: 'Não autorizado.', stack: err.stack  });
 
     req.userId = decoded.id;
 
