@@ -1,0 +1,10 @@
+[2021-04-14 18:54:24][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-14 18:54:24][INFO]: MySql conectado ao ambiente development
+
+[2021-04-14 18:54:30][INFO]: Iniciando login na plataforma
+
+[2021-04-14 18:54:30][INFO]: Iniciando busca dos produtos.
+
+[2021-04-14 18:54:30][INFO]: Produtos obtidos.
+

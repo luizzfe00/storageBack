@@ -13,15 +13,15 @@ function verifyToken(req, res, next) {
 
   const token = getToken(req);
 
-  if (!token)
-    return res.status(401).json({ message: "Acesso Negado" });
+  if (!token || token === undefined)
+    res.status(402).json({ message: "Acesso Negado" });
 
   try {
     const verified = jwt.verify(token, process.env.JWT_SECRET);
     req.user = verified;
     next();
   } catch (err) {
-    res.status(400).json({ message: "Token Inválido." });
+    res.status(401).json({ error: err.message, message: "Token Inválido", stack: err.stack });
   }
 }
 

@@ -4,6 +4,7 @@ const parser = require('body-parser');
 const cors = require('cors');
 const express = require('express');
 const http = require('http');
+const morgan = require('morgan'); 
 
 // Database
 require('./application/database');
@@ -22,6 +23,7 @@ const PORT = environment.API.PORT || 3001;
 const application = express();
 
 application.use(cors());
+application.use(morgan('dev'));
 application.use(parser.json({ limit: '5mb' }));
 application.use(parser.urlencoded({ limit: '5mb', extended: false }));
 application.use('/api', routes);

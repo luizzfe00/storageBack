@@ -1,6 +1,6 @@
 const { Op } = require('sequelize');
 
-const { Producer, Product } = require('../../models');
+const { Producer, Product, Image } = require('../../models');
 
 
 
@@ -28,8 +28,6 @@ async function getAll(data) {
     const page = Number(data.page) || 1;
     const skip = limit * page - limit;
 
-    console.log({ data });
-
     const query = { producerId: data.id };
 
     if (data.name) {
@@ -52,7 +50,6 @@ async function getAll(data) {
     return { count, page, items: rows };
 
   } catch (err) {
-    console.log({ err });
     throw new Error({ message: "Erro ao obter os produtos.", stack: err.stack });
   }
 
@@ -98,4 +95,15 @@ async function remove(id) {
 
 }
 
-module.exports = { create, getAll, getOne, update, remove };
+async function createImage(data) {
+
+  const image = await Image.create(data);
+
+  return image;
+}
+
+async function updateImage(productId, imageId) {
+  
+}
+
+module.exports = { create, getAll, getOne, update, remove, createImage, updateImage };

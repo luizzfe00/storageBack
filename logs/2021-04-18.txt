@@ -1,0 +1,183 @@
+[2021-04-18 18:20:48][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-18 18:20:48][INFO]: MySql conectado ao ambiente development
+
+[2021-04-18 18:21:09][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-18 18:21:09][INFO]: MySql conectado ao ambiente development
+
+[2021-04-18 18:23:09][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-18 18:23:09][INFO]: MySql conectado ao ambiente development
+
+[2021-04-18 18:25:52][INFO]: Iniciando criação de produtor.
+[2021-04-18 18:25:52][INFO]: Body: {"name":"Luiz"}
+
+[2021-04-18 18:25:53][INFO]: Produtor criado
+[2021-04-18 18:25:53][INFO]: Body: {"document":{"type":"CPF","number":"$2a$08$Bv57B/wMEyDEHfuCha1khe6aItfG/gtWE62vlDfDCimfvBpVH6Hu2","issuer":"SSP","issueDate":"2002-02-20"},"id":1,"name":"Luiz","email":"teste@mail.com","password":"$2a$08$v6awUTCbHvje2RzWeNaOXejjyHdktpQMk.e7UI/CS4H6iOAFtbvmW","businessName":"Loja do Luiz","phoneNumber":"(83) 98888-9999","documentType":"CPF","documentNumber":"$2a$08$Bv57B/wMEyDEHfuCha1khe6aItfG/gtWE62vlDfDCimfvBpVH6Hu2","issuer":"SSP","issueDate":"2002-02-20","street":"Rua do Seu Ninguém","houseNumber":"10","district":"Catolé","city":"Campina Grande","state":"PB","zipCode":"411-110","country":"Brasil","updatedAt":"2021-04-18T21:25:53.013Z","createdAt":"2021-04-18T21:25:53.013Z"}
+
+[2021-04-18 18:25:59][INFO]: Iniciando login na plataforma
+
+[2021-04-18 18:26:38][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-18 18:26:38][INFO]: MySql conectado ao ambiente development
+
+[2021-04-18 18:28:40][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-18 18:28:40][INFO]: MySql conectado ao ambiente development
+
+[2021-04-18 19:46:51][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-18 19:46:52][INFO]: MySql conectado ao ambiente development
+
+[2021-04-18 19:53:04][INFO]: Iniciando login na plataforma
+
+[2021-04-18 19:53:08][INFO]: Iniciando login na plataforma
+
+[2021-04-18 19:53:08][INFO]: Iniciando busca dos produtos.
+
+[2021-04-18 19:53:08][INFO]: Produtos obtidos.
+
+[2021-04-18 19:54:37][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-18 19:54:37][INFO]: MySql conectado ao ambiente development
+
+[2021-04-18 19:55:03][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-18 19:55:03][INFO]: MySql conectado ao ambiente development
+
+[2021-04-18 19:55:20][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-18 19:55:20][INFO]: MySql conectado ao ambiente development
+
+[2021-04-18 19:55:34][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-18 19:55:34][INFO]: MySql conectado ao ambiente development
+
+[2021-04-18 19:56:06][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-18 19:56:06][INFO]: MySql conectado ao ambiente development
+
+[2021-04-18 19:56:56][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-18 19:56:56][INFO]: MySql conectado ao ambiente development
+
+[2021-04-18 19:56:58][INFO]: Iniciando criação de produtor.
+[2021-04-18 19:56:58][INFO]: Body: {"name":"Luiz"}
+
+[2021-04-18 19:56:58][INFO]: Produtor criado
+[2021-04-18 19:56:58][INFO]: Body: {"document":{"type":"CPF","number":"$2a$08$4iAOY5G3vbYSleSBLV1KMebumEzHEBsAD/XzKUmozCJ7QZFg.F3.q","issuer":"SSP","issueDate":"2002-02-20"},"id":1,"name":"Luiz","email":"teste@mail.com","password":"$2a$08$kK2M1nNvcim8E8QLswzI2.DoTy4FHhl8LFo0I2qzXoFfe92sTmIpq","businessName":"Loja do Luiz","phoneNumber":"(83) 98888-9999","documentType":"CPF","documentNumber":"$2a$08$4iAOY5G3vbYSleSBLV1KMebumEzHEBsAD/XzKUmozCJ7QZFg.F3.q","issuer":"SSP","issueDate":"2002-02-20","street":"Rua do Seu Ninguém","houseNumber":"10","district":"Catolé","city":"Campina Grande","state":"PB","zipCode":"411-110","country":"Brasil","updatedAt":"2021-04-18T22:56:58.217Z","createdAt":"2021-04-18T22:56:58.217Z"}
+
+[2021-04-18 19:57:03][INFO]: Iniciando busca dos produtos.
+
+[2021-04-18 19:57:03][INFO]: Produtos obtidos.
+
+[2021-04-18 19:58:49][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-18 19:58:49][INFO]: MySql conectado ao ambiente development
+
+[2021-04-18 20:01:35][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-18 20:01:35][INFO]: MySql conectado ao ambiente development
+
+[2021-04-18 20:04:17][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-18 20:04:17][INFO]: MySql conectado ao ambiente development
+
+[2021-04-18 20:08:51][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-18 20:08:52][INFO]: MySql conectado ao ambiente development
+
+[2021-04-18 20:09:03][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-18 20:09:03][INFO]: MySql conectado ao ambiente development
+
+[2021-04-18 20:09:12][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-18 20:09:12][INFO]: MySql conectado ao ambiente development
+
+[2021-04-18 20:09:22][INFO]: Iniciando login na plataforma
+
+[2021-04-18 20:09:22][INFO]: Iniciando busca dos produtos.
+
+[2021-04-18 20:09:22][INFO]: Produtos obtidos.
+
+[2021-04-18 20:09:25][INFO]: Fazendo upload de imagem do produto.
+
+[2021-04-18 20:09:25][INFO]: Imagem criada
+
+[2021-04-18 20:26:34][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-18 20:26:34][INFO]: MySql conectado ao ambiente development
+
+[2021-04-18 20:29:37][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-18 20:29:37][INFO]: MySql conectado ao ambiente development
+
+[2021-04-18 20:29:41][INFO]: Iniciando criação de produtor.
+[2021-04-18 20:29:41][INFO]: Body: {"name":"Luiz"}
+
+[2021-04-18 20:29:42][INFO]: Produtor criado
+[2021-04-18 20:29:42][INFO]: Body: {"document":{"type":"CPF","number":"$2a$08$IWBHYUdPSDKAwYfRs3G0Geg1OS.zVMYc5jssjK69ogewINo53YBLO","issuer":"SSP","issueDate":"2002-02-20"},"id":1,"name":"Luiz","email":"teste@mail.com","password":"$2a$08$UGVWMwGeYbluDxbQUMFzQefmvoXT34VRrelEeCO3Ustg8H691DEKS","businessName":"Loja do Luiz","phoneNumber":"(83) 98888-9999","documentType":"CPF","documentNumber":"$2a$08$IWBHYUdPSDKAwYfRs3G0Geg1OS.zVMYc5jssjK69ogewINo53YBLO","issuer":"SSP","issueDate":"2002-02-20","street":"Rua do Seu Ninguém","houseNumber":"10","district":"Catolé","city":"Campina Grande","state":"PB","zipCode":"411-110","country":"Brasil","contact":{"instagram":"luizzfe"},"updatedAt":"2021-04-18T23:29:41.901Z","createdAt":"2021-04-18T23:29:41.901Z"}
+
+[2021-04-18 20:30:07][INFO]: Iniciando busca de produtor.
+
+[2021-04-18 20:30:45][INFO]: Iniciando criação de produtor.
+[2021-04-18 20:30:45][INFO]: Body: {"name":"Luiz"}
+
+[2021-04-18 20:30:45][INFO]: Produtor criado
+[2021-04-18 20:30:45][INFO]: Body: {"document":{"type":"CPF","number":"$2a$08$zkQUZTEIq7DEVj55Gy75/OFiSR5kb7kpPW4ALBHSdfyriO67BdV9m","issuer":"SSP","issueDate":"2002-02-20"},"id":2,"name":"Luiz","email":"teste2@mail.com","password":"$2a$08$yNjlna93Nb6/s0ZPa9GEPuZ3rOJDJjJdo2zQ2tkqTNmoGNxUKpXQS","businessName":"Loja do Luiz","phoneNumber":"(83) 98888-9999","documentType":"CPF","documentNumber":"$2a$08$zkQUZTEIq7DEVj55Gy75/OFiSR5kb7kpPW4ALBHSdfyriO67BdV9m","issuer":"SSP","issueDate":"2002-02-20","street":"Rua do Seu Ninguém","houseNumber":"10","district":"Catolé","city":"Campina Grande","state":"PB","zipCode":"411-110","country":"Brasil","contact":{"instagram":"luizzfe","teste":"abc"},"updatedAt":"2021-04-18T23:30:45.443Z","createdAt":"2021-04-18T23:30:45.443Z"}
+
+[2021-04-18 20:43:55][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-18 20:43:55][INFO]: MySql conectado ao ambiente development
+
+[2021-04-18 20:44:06][INFO]: Iniciando criação de produtor.
+[2021-04-18 20:44:06][INFO]: Body: {"name":"Luiz"}
+
+[2021-04-18 20:44:07][INFO]: Produtor criado
+[2021-04-18 20:44:07][INFO]: Body: {"id":1,"name":"Luiz","email":"teste@mail.com","password":"$2a$08$lFkUVYsmWTSD.7T2pxIdrO2JtSiwZ5dtK9oHbCEvJ1g9Zl2KK69Wm","businessName":"Loja do Luiz","phoneNumber":"(83) 98888-9999","updatedAt":"2021-04-18T23:44:06.845Z","createdAt":"2021-04-18T23:44:06.845Z"}
+
+[2021-04-18 20:46:57][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-18 20:46:57][INFO]: MySql conectado ao ambiente development
+
+[2021-04-18 20:47:00][INFO]: Iniciando criação de produtor.
+[2021-04-18 20:47:00][INFO]: Body: {"name":"Luiz"}
+
+[2021-04-18 20:48:15][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-18 20:48:15][INFO]: MySql conectado ao ambiente development
+
+[2021-04-18 20:48:16][INFO]: Iniciando criação de produtor.
+[2021-04-18 20:48:16][INFO]: Body: {"name":"Luiz"}
+
+[2021-04-18 20:48:17][INFO]: Produtor criado
+[2021-04-18 20:48:17][INFO]: Body: {"id":2,"name":"Luiz","email":"teste2@mail.com","password":"$2a$08$wceFE9aQoetFzDWeKAFhf.xFvZ12eWvX/Kx49TAKOm3YiKg8k7e6m","businessName":"Loja do Luiz","phoneNumber":"(83) 98888-9999","document":{"documentType":"CPF","documentNumber":"$2a$08$UqjcHZrkfxlGSBnj8pJqA.SbyUcYHmks7gYa3gKBkHdAkZcx5FJSS","issuer":"SSP","issueDate":"2002-02-20"},"address":{"street":"Rua do Seu Ninguém","houseNumber":"10","district":"Catolé","city":"Campina Grande","state":"PB","zipCode":"411-110","country":"Brasil"},"updatedAt":"2021-04-18T23:48:16.996Z","createdAt":"2021-04-18T23:48:16.996Z"}
+
+[2021-04-18 20:48:37][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-18 20:48:37][INFO]: MySql conectado ao ambiente development
+
+[2021-04-18 20:49:05][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-18 20:49:05][INFO]: MySql conectado ao ambiente development
+
+[2021-04-18 20:50:05][INFO]: Iniciando login na plataforma
+
+[2021-04-18 20:50:05][INFO]: Iniciando busca dos produtos.
+
+[2021-04-18 20:50:06][INFO]: Produtos obtidos.
+
+[2021-04-18 21:22:54][INFO]: Iniciando login na plataforma
+
+[2021-04-18 21:22:54][INFO]: Iniciando busca dos produtos.
+
+[2021-04-18 21:22:54][INFO]: Produtos obtidos.
+
+[2021-04-18 21:33:37][INFO]: Iniciando login na plataforma
+
+[2021-04-18 21:33:37][INFO]: Iniciando busca dos produtos.
+
+[2021-04-18 21:33:37][INFO]: Produtos obtidos.
+

@@ -8,7 +8,6 @@ module.exports = function (sequelize, DataTypes) {
       type: DataTypes.STRING,
       allowNull: false,
     },
-    image: DataTypes.STRING,
     active: {
       type: DataTypes.BOOLEAN,
       allowNull: false,
@@ -21,6 +20,7 @@ module.exports = function (sequelize, DataTypes) {
       type: DataTypes.INTEGER,
       allowNull: false,
     },
+    images: DataTypes.JSON,
     producerId: {
       type: DataTypes.INTEGER,
       allowNull: false,

@@ -1,5 +1,5 @@
 module.exports = function getToken(req) {
-  const token = req.header('authorization').split('auth-token ')[1];
+  const token = req.headers.authorization.split('Bearer ')[1];
 
   return token;
 };

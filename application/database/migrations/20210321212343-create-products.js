@@ -18,7 +18,6 @@ module.exports = {
         onUpdate: 'CASCADE',
         onDelete: 'CASCADE',
       },
-      image: Sequelize.STRING,
       code: {
         allowNull: false,
         type: Sequelize.STRING,
@@ -34,6 +33,9 @@ module.exports = {
       quantity: {
         allowNull: false,
         type: Sequelize.INTEGER,
+      },
+      images: {
+        type: Sequelize.JSON,
       },
       createdAt: {
         allowNull: false,

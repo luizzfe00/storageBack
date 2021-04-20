@@ -1,0 +1,70 @@
+[2021-04-19 10:32:35][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-19 10:32:35][INFO]: MySql conectado ao ambiente development
+
+[2021-04-19 10:32:50][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-19 10:32:50][INFO]: MySql conectado ao ambiente development
+
+[2021-04-19 10:33:28][INFO]: Iniciando login na plataforma
+
+[2021-04-19 10:33:28][INFO]: Iniciando busca dos produtos.
+
+[2021-04-19 10:33:28][INFO]: Produtos obtidos.
+
+[2021-04-19 10:55:27][INFO]: Iniciado a criação do produto.
+
+[2021-04-19 10:55:49][INFO]: Iniciando busca dos produtos.
+
+[2021-04-19 10:55:49][INFO]: Produtos obtidos.
+
+[2021-04-19 10:58:18][INFO]: Iniciado a criação do produto.
+
+[2021-04-19 11:07:23][INFO]: Iniciando busca dos produtos.
+
+[2021-04-19 11:07:23][INFO]: Produtos obtidos.
+
+[2021-04-19 11:07:35][INFO]: Iniciado a criação do produto.
+
+[2021-04-19 11:07:42][INFO]: Iniciando busca dos produtos.
+
+[2021-04-19 11:07:42][INFO]: Produtos obtidos.
+
+[2021-04-19 11:09:40][INFO]: Iniciado a criação do produto.
+
+[2021-04-19 11:11:03][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-19 11:11:03][INFO]: MySql conectado ao ambiente development
+
+[2021-04-19 11:16:23][INFO]: Iniciando busca dos produtos.
+
+[2021-04-19 11:16:23][INFO]: Produtos obtidos.
+
+[2021-04-19 11:27:30][INFO]: Iniciando busca dos produtos.
+
+[2021-04-19 11:27:30][INFO]: Produtos obtidos.
+
+[2021-04-19 11:27:58][INFO]: Iniciando busca dos produtos.
+
+[2021-04-19 11:27:58][INFO]: Produtos obtidos.
+
+[2021-04-19 11:28:29][INFO]: Iniciando busca dos produtos.
+
+[2021-04-19 11:28:29][INFO]: Produtos obtidos.
+
+[2021-04-19 11:35:10][INFO]: Iniciando busca dos produtos.
+
+[2021-04-19 11:35:10][INFO]: Produtos obtidos.
+
+[2021-04-19 19:08:55][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-19 19:08:55][INFO]: MySql conectado ao ambiente development
+
+[2021-04-19 19:10:37][INFO]: Iniciando busca dos produtos.
+
+[2021-04-19 19:10:37][INFO]: Produtos obtidos.
+
+[2021-04-19 22:20:14][INFO]: Iniciando busca dos produtos.
+
+[2021-04-19 22:20:14][INFO]: Produtos obtidos.
+

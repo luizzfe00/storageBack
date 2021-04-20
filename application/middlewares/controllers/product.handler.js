@@ -112,4 +112,27 @@ async function handleDelete(req, res) {
   }
 }
 
-module.exports = { handleCreate, handleGetAll, handleGetOne, handleUpdate, handleDelete };
+async function handleNewProductImage(req, res) {
+  try {
+    LogService.info('Fazendo upload de imagem do produto.');
+
+    const { originalname, size, filename } = req.file;
+
+    const body = {
+      name: originalname,
+      size: size,
+      imageKey: filename,
+      url: '',
+    };
+
+    const image = await ProductService.createImage(body);
+
+    LogService.info('Imagem criada');
+
+    res.status(201).json({ data: image });
+  } catch (err) {
+    res.status(400).json({ error: err.message, stack: err.stack });
+  }
+}
+
+module.exports = { handleCreate, handleGetAll, handleGetOne, handleUpdate, handleDelete, handleNewProductImage };

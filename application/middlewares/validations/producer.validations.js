@@ -4,6 +4,8 @@ async function createProducer(req, res, next) {
 
   const data = req.body;
 
+  const { document } = data;
+
   const producer = await Producer.findOne({
     where: {
       email: data.email
@@ -23,11 +25,11 @@ async function createProducer(req, res, next) {
     return res.status(400).json({ error: 'É preciso informar um nome para a loja.' });
   if (!data.phoneNumber)
     return res.status(400).json({ error: 'É preciso informar um número de telefone para o produtor.' });
-  if (!data.documentType)
+  if (!document.documentType)
     return res.status(400).json({ error: 'É preciso informar o tipo de documento do produtor.' });
-  if (!data.documentNumber)
+  if (!document.documentNumber)
     return res.status(400).json({ error: 'É preciso informar o número do documento do produtor.' });
-  if (!data.issuer)
+  if (!document.issuer)
     return res.status(400).json({ error: 'É preciso informar o Órgão expeditor do documento.' });
 
   next();

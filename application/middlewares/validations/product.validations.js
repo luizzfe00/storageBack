@@ -18,6 +18,8 @@ async function validateProduct(req, res, next) {
     return res.status(400).json({ error: 'É preciso informar o código do produto.' });
   if (!data.value)
     return res.status(400).json({ error: 'É preciso informar o valor do produto.' });
+  if (data.quantity === 0)
+    return res.status(400).json({ error: 'É preciso informar uma quantidade válida para o produto.' });
 
 
   const product = await Product.findOne({ where: { code: data.code } });
@@ -28,4 +30,19 @@ async function validateProduct(req, res, next) {
   next();
 }
 
-module.exports = { validateProduct };
+async function validateProductImage(req, res, next) {
+  const { body } = req;
+
+  if (!body.name)
+    return res.status(400).json({ error: 'É preciso informar um nome para a imagem do produto.' });
+  if (!body.size)
+    return res.status(400).json({ error: 'É preciso informar o tamanho da imagem do produto.' });
+  if (!body.imageKey)
+    return res.status(400).json({ error: 'É preciso informar uma chave para a imagem do produto.' });
+  if (!body.url)
+    return res.status(400).json({ error: 'É preciso informar uma url para a imagem do produto.' });
+
+  next();
+} 
+
+module.exports = { validateProduct, validateProductImage };

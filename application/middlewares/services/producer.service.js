@@ -6,14 +6,16 @@ const { Producer } = require('../../models');
 async function create(data) {
   const saltRounds = 8;
 
+  const { document } = data;
+
   await bcrypt.hash(data.password, saltRounds)
     .then((hash) => {
       data.password = hash;
     });
 
-  await bcrypt.hash(data.documentNumber, saltRounds)
+  await bcrypt.hash(document.documentNumber, saltRounds)
   .then((hash) => {
-    data.documentNumber = hash;
+    document.documentNumber = hash;
   });
       
   const producer = await Producer.create(data);
