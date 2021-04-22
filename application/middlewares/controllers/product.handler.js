@@ -84,7 +84,7 @@ async function handleUpdate(req, res) {
 
     const productUpdated = await ProductService.update(productId, body);
 
-    LogService('Produto atualizado com sucesso.');
+    LogService.info('Produto atualizado com sucesso.');
 
     return res.status(201).json({ product: productUpdated });
   } catch (err) {

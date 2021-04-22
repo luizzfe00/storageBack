@@ -28,7 +28,7 @@ async function getAll(data) {
     const page = Number(data.page) || 1;
     const skip = limit * page - limit;
 
-    const query = { producerId: data.id };
+    const query = { producerId: data.id, name: data.name, code: data.code };
 
     if (data.name) {
       data.name = data.name.replace(/[-[\]{}()*+?.,\\/^$|#\s]/g, "\\$&");
@@ -38,7 +38,10 @@ async function getAll(data) {
 
     const { count, rows } = await Product.findAndCountAll({
       where: {
-        [Op.or]: query,
+        [Op.and]: {
+         [Op.eq]: query.id,
+         [Op.or]: [query.name, query.code],
+        },
       },
       order: [
         ['createdAt', 'DESC']
@@ -46,6 +49,8 @@ async function getAll(data) {
       offset: skip,
       limit,
     });
+
+    console.log({ rows });
 
     return { count, page, items: rows };
 
