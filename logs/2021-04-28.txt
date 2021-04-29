@@ -1,0 +1,170 @@
+[2021-04-28 10:58:34][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-28 10:58:35][INFO]: MySql conectado ao ambiente development
+
+[2021-04-28 11:04:57][INFO]: Iniciando login na plataforma
+
+[2021-04-28 11:04:57][INFO]: Iniciando busca dos produtos.
+
+[2021-04-28 11:04:57][INFO]: Produtos obtidos.
+
+[2021-04-28 11:05:02][INFO]: Iniciando busca dos produtos.
+
+[2021-04-28 11:05:02][INFO]: Produtos obtidos.
+
+[2021-04-28 11:29:19][INFO]: Iniciando busca dos produtos.
+
+[2021-04-28 11:29:19][INFO]: Produtos obtidos.
+
+[2021-04-28 11:30:04][INFO]: Iniciando busca dos produtos.
+
+[2021-04-28 11:30:04][INFO]: Produtos obtidos.
+
+[2021-04-28 16:49:27][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-28 16:49:27][INFO]: MySql conectado ao ambiente development
+
+[2021-04-28 16:51:10][INFO]: Iniciando busca dos produtos.
+
+[2021-04-28 16:51:10][INFO]: Produtos obtidos.
+
+[2021-04-28 16:51:48][INFO]: Iniciando busca dos produtos.
+
+[2021-04-28 16:51:48][INFO]: Produtos obtidos.
+
+[2021-04-28 17:27:33][INFO]: Iniciando busca dos produtos.
+
+[2021-04-28 17:27:33][INFO]: Produtos obtidos.
+
+[2021-04-28 17:28:09][INFO]: Iniciando busca dos produtos.
+
+[2021-04-28 17:28:09][INFO]: Produtos obtidos.
+
+[2021-04-28 17:33:11][INFO]: Iniciando busca dos produtos.
+
+[2021-04-28 17:33:11][INFO]: Produtos obtidos.
+
+[2021-04-28 17:37:53][INFO]: Iniciando busca dos produtos.
+
+[2021-04-28 17:37:53][INFO]: Produtos obtidos.
+
+[2021-04-28 17:39:48][INFO]: Iniciando busca dos produtos.
+
+[2021-04-28 17:39:48][INFO]: Produtos obtidos.
+
+[2021-04-28 17:42:51][INFO]: Iniciando busca dos produtos.
+
+[2021-04-28 17:42:51][INFO]: Produtos obtidos.
+
+[2021-04-28 17:48:35][INFO]: Iniciando busca dos produtos.
+
+[2021-04-28 17:48:35][INFO]: Produtos obtidos.
+
+[2021-04-28 18:00:42][INFO]: Iniciando busca dos produtos.
+
+[2021-04-28 18:00:42][INFO]: Produtos obtidos.
+
+[2021-04-28 18:09:13][INFO]: Iniciando busca dos produtos.
+
+[2021-04-28 18:09:13][INFO]: Produtos obtidos.
+
+[2021-04-28 18:10:07][INFO]: Iniciando busca dos produtos.
+
+[2021-04-28 18:10:07][INFO]: Produtos obtidos.
+
+[2021-04-28 18:53:02][INFO]: Iniciando busca dos produtos.
+
+[2021-04-28 18:53:02][INFO]: Produtos obtidos.
+
+[2021-04-28 19:01:24][INFO]: Iniciando busca dos produtos.
+
+[2021-04-28 19:01:24][INFO]: Produtos obtidos.
+
+[2021-04-28 19:01:48][INFO]: Iniciando busca dos produtos.
+
+[2021-04-28 19:01:48][INFO]: Produtos obtidos.
+
+[2021-04-28 19:02:52][INFO]: Iniciando busca dos produtos.
+
+[2021-04-28 19:02:52][INFO]: Produtos obtidos.
+
+[2021-04-28 19:03:11][INFO]: Iniciando busca dos produtos.
+
+[2021-04-28 19:03:11][INFO]: Produtos obtidos.
+
+[2021-04-28 19:03:48][INFO]: Iniciando busca dos produtos.
+
+[2021-04-28 19:03:48][INFO]: Produtos obtidos.
+
+[2021-04-28 19:04:24][INFO]: Iniciando busca dos produtos.
+
+[2021-04-28 19:04:24][INFO]: Produtos obtidos.
+
+[2021-04-28 19:06:04][INFO]: Iniciando busca dos produtos.
+
+[2021-04-28 19:06:04][INFO]: Produtos obtidos.
+
+[2021-04-28 19:07:54][INFO]: Iniciando busca dos produtos.
+
+[2021-04-28 19:07:54][INFO]: Produtos obtidos.
+
+[2021-04-28 19:08:19][INFO]: Iniciando busca dos produtos.
+
+[2021-04-28 19:08:19][INFO]: Produtos obtidos.
+
+[2021-04-28 19:10:03][INFO]: Iniciando busca dos produtos.
+
+[2021-04-28 19:10:03][INFO]: Produtos obtidos.
+
+[2021-04-28 19:10:58][INFO]: Iniciando busca dos produtos.
+
+[2021-04-28 19:10:58][INFO]: Produtos obtidos.
+
+[2021-04-28 19:11:14][INFO]: Iniciando busca dos produtos.
+
+[2021-04-28 19:11:14][INFO]: Produtos obtidos.
+
+[2021-04-28 19:12:49][INFO]: Iniciando busca dos produtos.
+
+[2021-04-28 19:12:50][INFO]: Produtos obtidos.
+
+[2021-04-28 19:12:52][INFO]: Iniciando busca dos produtos.
+
+[2021-04-28 19:12:52][INFO]: Produtos obtidos.
+
+[2021-04-28 19:13:12][INFO]: Iniciando busca dos produtos.
+
+[2021-04-28 19:13:12][INFO]: Produtos obtidos.
+
+[2021-04-28 19:13:33][INFO]: Iniciando busca dos produtos.
+
+[2021-04-28 19:13:33][INFO]: Produtos obtidos.
+
+[2021-04-28 19:14:34][INFO]: Iniciando busca dos produtos.
+
+[2021-04-28 19:14:34][INFO]: Produtos obtidos.
+
+[2021-04-28 19:15:01][INFO]: Iniciando busca dos produtos.
+
+[2021-04-28 19:15:01][INFO]: Produtos obtidos.
+
+[2021-04-28 19:15:37][INFO]: Iniciando busca dos produtos.
+
+[2021-04-28 19:15:37][INFO]: Produtos obtidos.
+
+[2021-04-28 19:17:25][INFO]: Iniciando busca dos produtos.
+
+[2021-04-28 19:17:25][INFO]: Produtos obtidos.
+
+[2021-04-28 19:17:46][INFO]: Iniciando busca dos produtos.
+
+[2021-04-28 19:17:46][INFO]: Produtos obtidos.
+
+[2021-04-28 19:18:24][INFO]: Iniciando busca dos produtos.
+
+[2021-04-28 19:18:24][INFO]: Produtos obtidos.
+
+[2021-04-28 19:19:47][INFO]: Iniciando busca dos produtos.
+
+[2021-04-28 19:19:47][INFO]: Produtos obtidos.
+

@@ -1,0 +1,239 @@
+[2021-04-29 08:24:47][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-29 08:24:47][INFO]: MySql conectado ao ambiente development
+
+[2021-04-29 08:24:50][INFO]: Iniciando criação de produtor.
+[2021-04-29 08:24:50][INFO]: Body: {"name":"Luiz"}
+
+[2021-04-29 08:24:50][INFO]: Produtor criado
+[2021-04-29 08:24:50][INFO]: Body: {"id":1,"name":"Luiz","email":"teste@mail.com","password":"$2a$08$ujB5AeWOvyILtkHY0gK7h.k2BcKvNyRPFZafptqH.KIxiI2iZ2hB6","businessName":"Loja do Luiz","phoneNumber":"(83) 98888-9999","document":{"documentType":"CPF","documentNumber":"$2a$08$nwvmiKLQKmjhbsQK0KiHM.pGoyAvJHy4jo5GOyE7T/EvYT6TkM9g2","issuer":"SSP","issueDate":"2002-02-20"},"address":{"street":"Rua do Seu Ninguém","houseNumber":"10","district":"Catolé","city":"Campina Grande","state":"PB","zipCode":"411-110","country":"Brasil"},"updatedAt":"2021-04-29T11:24:50.795Z","createdAt":"2021-04-29T11:24:50.795Z"}
+
+[2021-04-29 08:26:25][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-29 08:26:25][INFO]: MySql conectado ao ambiente development
+
+[2021-04-29 08:26:32][INFO]: Iniciando criação de produtor.
+[2021-04-29 08:26:32][INFO]: Body: {"name":"Luiz"}
+
+[2021-04-29 08:26:32][INFO]: Produtor criado
+[2021-04-29 08:26:32][INFO]: Body: {"id":1,"name":"Luiz","email":"teste@mail.com","password":"$2a$08$NO1xy9OgQGtMw35/h1ucO.S7pd9aPnt9hK/kLahvYVtR4jwbI3a/S","businessName":"Loja do Luiz","phoneNumber":"(83) 98888-9999","document":{"documentType":"CPF","documentNumber":"$2a$08$E.4UXCkdmdtM7kMCFcOuhuNRVBSjN3Yznvl2ZUAUL3smLsOu97mWu","issuer":"SSP","issueDate":"2002-02-20"},"address":{"street":"Rua do Seu Ninguém","houseNumber":"10","district":"Catolé","city":"Campina Grande","state":"PB","zipCode":"411-110","country":"Brasil"},"updatedAt":"2021-04-29T11:26:32.590Z","createdAt":"2021-04-29T11:26:32.590Z"}
+
+[2021-04-29 08:26:49][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-29 08:26:49][INFO]: MySql conectado ao ambiente development
+
+[2021-04-29 08:27:23][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-29 08:27:23][INFO]: MySql conectado ao ambiente development
+
+[2021-04-29 08:29:24][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-29 08:29:24][INFO]: MySql conectado ao ambiente development
+
+[2021-04-29 08:29:26][INFO]: Iniciando criação de produtor.
+[2021-04-29 08:29:26][INFO]: Body: {"name":"Luiz"}
+
+[2021-04-29 08:30:05][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-29 08:30:05][INFO]: MySql conectado ao ambiente development
+
+[2021-04-29 08:33:55][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-29 08:33:55][INFO]: MySql conectado ao ambiente development
+
+[2021-04-29 08:33:57][INFO]: Iniciando criação de produtor.
+[2021-04-29 08:33:57][INFO]: Body: {"name":"Luiz"}
+
+[2021-04-29 08:35:03][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-29 08:35:03][INFO]: MySql conectado ao ambiente development
+
+[2021-04-29 08:35:04][INFO]: Iniciando criação de produtor.
+[2021-04-29 08:35:04][INFO]: Body: {"name":"Luiz"}
+
+[2021-04-29 08:35:31][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-29 08:35:31][INFO]: MySql conectado ao ambiente development
+
+[2021-04-29 08:35:35][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-29 08:35:35][INFO]: MySql conectado ao ambiente development
+
+[2021-04-29 08:35:50][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-29 08:35:50][INFO]: MySql conectado ao ambiente development
+
+[2021-04-29 08:35:52][INFO]: Iniciando criação de produtor.
+[2021-04-29 08:35:52][INFO]: Body: {"name":"Luiz"}
+
+[2021-04-29 08:39:32][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-29 08:39:32][INFO]: MySql conectado ao ambiente development
+
+[2021-04-29 08:39:36][INFO]: Iniciando criação de produtor.
+[2021-04-29 08:39:36][INFO]: Body: {"name":"Luiz"}
+
+[2021-04-29 08:40:00][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-29 08:40:00][INFO]: MySql conectado ao ambiente development
+
+[2021-04-29 08:40:03][INFO]: Iniciando criação de produtor.
+[2021-04-29 08:40:03][INFO]: Body: {"name":"Luiz"}
+
+[2021-04-29 08:40:03][INFO]: Produtor criado
+[2021-04-29 08:40:03][INFO]: Body: {"id":"59a724af-cede-4dd0-b10f-f36826d09f54","name":"Luiz","email":"teste@mail.com","password":"$2a$08$TiCB6QhGNsSm5z9Hr/ePj.LzuOFrSpyaWrFFH1Hx9pu1k5j284Vma","businessName":"Loja do Luiz","phoneNumber":"(83) 98888-9999","document":{"documentType":"CPF","documentNumber":"$2a$08$iepiXnPtGKfLxmVIVxlAeuet0VbUCAHJ/59RJ4Nx5fX8IlOlaFwNS","issuer":"SSP","issueDate":"2002-02-20"},"address":{"street":"Rua do Seu Ninguém","houseNumber":"10","district":"Catolé","city":"Campina Grande","state":"PB","zipCode":"411-110","country":"Brasil"},"updatedAt":"2021-04-29T11:40:03.054Z","createdAt":"2021-04-29T11:40:03.054Z"}
+
+[2021-04-29 08:40:13][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-29 08:40:13][INFO]: MySql conectado ao ambiente development
+
+[2021-04-29 08:40:19][INFO]: Iniciando criação de produtor.
+[2021-04-29 08:40:19][INFO]: Body: {"name":"Luiz"}
+
+[2021-04-29 08:40:19][INFO]: Produtor criado
+[2021-04-29 08:40:19][INFO]: Body: {"id":"ace1baa0-a8df-11eb-beae-2b910b41509b","name":"Luiz","email":"teste2@mail.com","password":"$2a$08$pDqlA.TVn0gVwWbW1WECRuQs//ZoTQyRDOaqQPLeTfpUMyEpo81Zy","businessName":"Loja do Luiz","phoneNumber":"(83) 98888-9999","document":{"documentType":"CPF","documentNumber":"$2a$08$XVJLBq4481ouAvNB4mJ8uu4O/bbLcdPPjk0EhFa/eWDN3jB7yoWXm","issuer":"SSP","issueDate":"2002-02-20"},"address":{"street":"Rua do Seu Ninguém","houseNumber":"10","district":"Catolé","city":"Campina Grande","state":"PB","zipCode":"411-110","country":"Brasil"},"updatedAt":"2021-04-29T11:40:19.658Z","createdAt":"2021-04-29T11:40:19.658Z"}
+
+[2021-04-29 08:40:50][INFO]: Iniciando criação de produtor.
+[2021-04-29 08:40:50][INFO]: Body: {"name":"Luiz"}
+
+[2021-04-29 08:40:51][INFO]: Produtor criado
+[2021-04-29 08:40:51][INFO]: Body: {"id":"bf2c3190-a8df-11eb-beae-2b910b41509b","name":"Luiz","email":"teste3@mail.com","password":"$2a$08$LJzsHEi/kpDmMJhU34Bh8.POj2EwqvamZJW33.FMcCIsdhzDZIjw6","businessName":"Loja do Luiz","phoneNumber":"(83) 98888-9999","document":{"documentType":"CPF","documentNumber":"$2a$08$qJe26t260qsuYOX7E/4jhu8xwY1nNgrnzd/HR14FLxW4fNo28.YT.","issuer":"SSP","issueDate":"2002-02-20"},"address":{"street":"Rua do Seu Ninguém","houseNumber":"10","district":"Catolé","city":"Campina Grande","state":"PB","zipCode":"411-110","country":"Brasil"},"updatedAt":"2021-04-29T11:40:50.345Z","createdAt":"2021-04-29T11:40:50.345Z"}
+
+[2021-04-29 08:41:10][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-29 08:41:10][INFO]: MySql conectado ao ambiente development
+
+[2021-04-29 08:42:18][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-29 08:42:18][INFO]: MySql conectado ao ambiente development
+
+[2021-04-29 08:42:23][INFO]: Iniciando criação de produtor.
+[2021-04-29 08:42:23][INFO]: Body: {"name":"Luiz"}
+
+[2021-04-29 08:42:23][INFO]: Produtor criado
+[2021-04-29 08:42:23][INFO]: Body: {"id":"86cd4ce1-7f29-4f1b-a856-503472e76196","name":"Luiz","email":"teste@mail.com","password":"$2a$08$7D7RcCcPkzP4w.zrh6lT4.fwVk6b/KLztLaApaO5/UQnmbr4a1w4.","businessName":"Loja do Luiz","phoneNumber":"(83) 98888-9999","document":{"documentType":"CPF","documentNumber":"$2a$08$f/So1PICQjRYo2cktHKv2.XlMf8ODBSjejAgLoSIKDe78hZNFchku","issuer":"SSP","issueDate":"2002-02-20"},"address":{"street":"Rua do Seu Ninguém","houseNumber":"10","district":"Catolé","city":"Campina Grande","state":"PB","zipCode":"411-110","country":"Brasil"},"updatedAt":"2021-04-29T11:42:23.121Z","createdAt":"2021-04-29T11:42:23.121Z"}
+
+[2021-04-29 08:44:14][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-29 08:44:14][INFO]: MySql conectado ao ambiente development
+
+[2021-04-29 08:44:40][INFO]: Iniciando busca dos produtos.
+
+[2021-04-29 08:44:40][INFO]: Produtos obtidos.
+
+[2021-04-29 08:45:12][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-29 08:45:12][INFO]: MySql conectado ao ambiente development
+
+[2021-04-29 08:45:16][INFO]: Iniciando busca dos produtos.
+
+[2021-04-29 08:45:16][INFO]: Produtos obtidos.
+
+[2021-04-29 08:47:59][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-29 08:47:59][INFO]: MySql conectado ao ambiente development
+
+[2021-04-29 08:49:07][INFO]: Iniciando busca dos produtos.
+
+[2021-04-29 08:49:07][INFO]: Produtos obtidos.
+
+[2021-04-29 08:49:35][INFO]: Iniciando login na plataforma
+
+[2021-04-29 08:49:35][INFO]: Iniciando busca dos produtos.
+
+[2021-04-29 08:49:35][INFO]: Produtos obtidos.
+
+[2021-04-29 08:49:50][INFO]: Iniciado a criação do produto.
+
+[2021-04-29 08:49:53][INFO]: Iniciando busca dos produtos.
+
+[2021-04-29 08:49:53][INFO]: Produtos obtidos.
+
+[2021-04-29 08:51:01][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-29 08:51:01][INFO]: MySql conectado ao ambiente development
+
+[2021-04-29 08:51:15][INFO]: Iniciado a criação do produto.
+
+[2021-04-29 08:52:01][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-29 08:52:01][INFO]: MySql conectado ao ambiente development
+
+[2021-04-29 08:52:04][INFO]: Iniciado a criação do produto.
+
+[2021-04-29 08:52:14][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-29 08:52:14][INFO]: MySql conectado ao ambiente development
+
+[2021-04-29 08:52:17][INFO]: Iniciado a criação do produto.
+
+[2021-04-29 08:52:41][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-29 08:52:41][INFO]: MySql conectado ao ambiente development
+
+[2021-04-29 08:52:47][INFO]: Iniciado a criação do produto.
+
+[2021-04-29 08:53:33][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-29 08:53:33][INFO]: MySql conectado ao ambiente development
+
+[2021-04-29 08:53:36][INFO]: Iniciado a criação do produto.
+
+[2021-04-29 08:53:48][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-29 08:53:48][INFO]: MySql conectado ao ambiente development
+
+[2021-04-29 08:54:21][INFO]: Iniciado a criação do produto.
+
+[2021-04-29 08:54:44][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-29 08:54:44][INFO]: MySql conectado ao ambiente development
+
+[2021-04-29 08:54:46][INFO]: Iniciado a criação do produto.
+
+[2021-04-29 08:57:30][INFO]: Iniciado a criação do produto.
+
+[2021-04-29 08:59:14][INFO]: Iniciado a criação do produto.
+
+[2021-04-29 09:03:51][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-29 09:03:51][INFO]: MySql conectado ao ambiente development
+
+[2021-04-29 09:03:59][INFO]: Iniciado a criação do produto.
+
+[2021-04-29 09:13:40][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-29 09:13:40][INFO]: MySql conectado ao ambiente development
+
+[2021-04-29 09:13:44][INFO]: Iniciado a criação do produto.
+
+[2021-04-29 09:13:44][INFO]: Produto criado com sucesso.
+
+[2021-04-29 09:16:44][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-29 09:16:45][INFO]: MySql conectado ao ambiente development
+
+[2021-04-29 09:17:20][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-29 09:17:20][INFO]: MySql conectado ao ambiente development
+
+[2021-04-29 09:17:27][INFO]: Iniciado a criação do produto.
+
+[2021-04-29 09:17:27][INFO]: Produto criado com sucesso.
+
+[2021-04-29 09:17:36][INFO]: Iniciando busca dos produtos.
+
+[2021-04-29 09:17:36][INFO]: Produtos obtidos.
+
+[2021-04-29 09:19:46][INFO]: Iniciando busca dos produtos.
+
+[2021-04-29 09:19:46][INFO]: Produtos obtidos.
+
+[2021-04-29 09:20:22][INFO]: Iniciando busca dos produtos.
+
+[2021-04-29 09:20:22][INFO]: Produtos obtidos.
+
+[2021-04-29 09:28:43][INFO]: Iniciando busca dos produtos.
+
+[2021-04-29 09:28:43][INFO]: Produtos obtidos.
+

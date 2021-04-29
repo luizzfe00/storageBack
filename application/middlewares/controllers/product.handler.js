@@ -10,11 +10,17 @@ async function handleCreate(req, res) {
 
     LogService.info('Iniciado a criação do produto.');
 
-    const { id } = req.user;
+    const token = getToken(req);
+
+    const { id } = jwt.decode(token, process.env.JWT_SECRET);
+
+    console.log({id});
 
     const product = await ProductService.create(req.body, id);
 
-    return res.status(201).json({ product });
+    LogService.info('Produto criado com sucesso.');
+
+    return res.status(201).json(product);
   } catch (err) {
 
     return res.status(500).json({ error: err.message, stack: err.stack });

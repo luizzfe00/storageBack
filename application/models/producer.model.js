@@ -1,5 +1,11 @@
 module.exports = function (sequelize, DataTypes) {
   const Producer = sequelize.define('Producer', {
+    id: {
+      primaryKey: true,
+      type: DataTypes.UUID,
+      allowNull: false,
+      defaultValue: DataTypes.UUIDV4,
+    },
     name: {
       type: DataTypes.STRING,
       allowNull: false,

@@ -1,0 +1,132 @@
+[2021-04-24 00:12:53][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-24 00:12:58][INFO]: MySql conectado ao ambiente development
+
+[2021-04-24 00:16:02][INFO]: Iniciando login na plataforma
+
+[2021-04-24 00:16:03][INFO]: Iniciando busca dos produtos.
+
+[2021-04-24 00:16:04][INFO]: Produtos obtidos.
+
+[2021-04-24 00:16:39][INFO]: Iniciado a criação do produto.
+
+[2021-04-24 00:16:42][INFO]: Iniciando busca dos produtos.
+
+[2021-04-24 00:16:42][INFO]: Produtos obtidos.
+
+[2021-04-24 00:16:44][INFO]: Iniciando busca dos produtos.
+
+[2021-04-24 00:16:44][INFO]: Produtos obtidos.
+
+[2021-04-24 00:17:28][INFO]: Iniciado a criação do produto.
+
+[2021-04-24 00:17:52][INFO]: Iniciando busca dos produtos.
+
+[2021-04-24 00:17:52][INFO]: Produtos obtidos.
+
+[2021-04-24 00:18:26][INFO]: Iniciando busca dos produtos.
+
+[2021-04-24 00:18:27][INFO]: Iniciando busca dos produtos.
+
+[2021-04-24 00:18:31][INFO]: Iniciando busca dos produtos.
+
+[2021-04-24 00:18:37][INFO]: Iniciando busca dos produtos.
+
+[2021-04-24 00:18:44][INFO]: Iniciando busca dos produtos.
+
+[2021-04-24 00:18:49][INFO]: Iniciando busca dos produtos.
+
+[2021-04-24 00:18:59][INFO]: Iniciando busca dos produtos.
+
+[2021-04-24 00:19:27][INFO]: Iniciando busca dos produtos.
+
+[2021-04-24 00:19:29][INFO]: Iniciando busca dos produtos.
+
+[2021-04-24 00:19:32][INFO]: Iniciando busca dos produtos.
+
+[2021-04-24 00:19:43][INFO]: Iniciando busca dos produtos.
+
+[2021-04-24 00:20:33][INFO]: Iniciando busca dos produtos.
+
+[2021-04-24 00:20:33][INFO]: Produtos obtidos.
+
+[2021-04-24 00:20:51][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-24 00:20:51][INFO]: MySql conectado ao ambiente development
+
+[2021-04-24 00:20:58][INFO]: Iniciando busca dos produtos.
+
+[2021-04-24 00:20:58][INFO]: Produtos obtidos.
+
+[2021-04-24 12:27:23][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-24 12:27:23][INFO]: MySql conectado ao ambiente development
+
+[2021-04-24 13:19:17][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-24 13:19:17][INFO]: MySql conectado ao ambiente development
+
+[2021-04-24 13:19:24][INFO]: Iniciando busca dos produtos.
+
+[2021-04-24 13:19:25][INFO]: Produtos obtidos.
+
+[2021-04-24 13:19:50][INFO]: Iniciando busca dos produtos.
+
+[2021-04-24 13:19:50][INFO]: Produtos obtidos.
+
+[2021-04-24 13:19:53][INFO]: Iniciando busca dos produtos.
+
+[2021-04-24 13:19:53][INFO]: Produtos obtidos.
+
+[2021-04-24 13:20:03][INFO]: Iniciando busca dos produtos.
+
+[2021-04-24 13:20:03][INFO]: Produtos obtidos.
+
+[2021-04-24 13:20:17][INFO]: Iniciando busca dos produtos.
+
+[2021-04-24 13:20:17][INFO]: Produtos obtidos.
+
+[2021-04-24 13:20:23][INFO]: Iniciando busca dos produtos.
+
+[2021-04-24 13:20:23][INFO]: Produtos obtidos.
+
+[2021-04-24 13:20:55][INFO]: O projeto está rodando na porta 3002.
+
+[2021-04-24 13:20:56][INFO]: MySql conectado ao ambiente development
+
+[2021-04-24 13:21:03][INFO]: Iniciando busca dos produtos.
+
+[2021-04-24 13:21:03][INFO]: Produtos obtidos.
+
+[2021-04-24 13:21:07][INFO]: Iniciando busca dos produtos.
+
+[2021-04-24 13:21:07][INFO]: Produtos obtidos.
+
+[2021-04-24 13:21:14][INFO]: Iniciando busca dos produtos.
+
+[2021-04-24 13:21:14][INFO]: Produtos obtidos.
+
+[2021-04-24 13:22:17][INFO]: Iniciando busca dos produtos.
+
+[2021-04-24 13:22:17][INFO]: Produtos obtidos.
+
+[2021-04-24 13:24:00][INFO]: Iniciando busca dos produtos.
+
+[2021-04-24 13:24:00][INFO]: Produtos obtidos.
+
+[2021-04-24 13:39:43][INFO]: Iniciando busca dos produtos.
+
+[2021-04-24 13:39:43][INFO]: Produtos obtidos.
+
+[2021-04-24 13:39:53][INFO]: Iniciando busca dos produtos.
+
+[2021-04-24 13:39:53][INFO]: Produtos obtidos.
+
+[2021-04-24 13:41:49][INFO]: Iniciando busca dos produtos.
+
+[2021-04-24 13:41:49][INFO]: Produtos obtidos.
+
+[2021-04-24 13:44:36][INFO]: Iniciando busca dos produtos.
+
+[2021-04-24 13:44:36][INFO]: Produtos obtidos.
+

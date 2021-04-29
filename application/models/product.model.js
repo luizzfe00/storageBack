@@ -1,5 +1,11 @@
 module.exports = function (sequelize, DataTypes) {
   const Product = sequelize.define('Product', {
+    id: {
+      primaryKey: true,
+      type: DataTypes.UUID,
+      allowNull: false,
+      defaultValue: DataTypes.UUIDV4,
+    },
     code: {
       type: DataTypes.STRING,
       allowNull: false,
@@ -22,7 +28,7 @@ module.exports = function (sequelize, DataTypes) {
     },
     images: DataTypes.JSON,
     producerId: {
-      type: DataTypes.INTEGER,
+      type: DataTypes.STRING,
       allowNull: false,
     }
   }, {
